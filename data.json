@@ -1,1 +1,6045 @@
-{}
+{
+    "2-3-or-4-beats-in-the-bar": {
+        "levels": "n3",
+        "name": "2, 3 or 4 beats in the bar",
+        "desc": [
+            "This excerpt has 4 beats in the bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/beats_4_1.mp3"
+            ],
+            "This excerpt has 3 beats in the bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/beats_3_1.mp3"
+            ]
+        ],
+        "id": "2-3-or-4-beats-in-the-bar"
+    },
+    "accentaccented": {
+        "levels": "n3",
+        "name": "Accent/accented",
+        "desc": [
+            "Notes which sound louder than others.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/accented1.mp3"
+            ]
+        ],
+        "id": "accent-accented"
+    },
+    "accompanied": {
+        "levels": "n3",
+        "name": "Accompanied",
+        "desc": [
+            "Other instrument(s) or voice(s) supports the main melody.\nIn this excerpt, the singers are accompanied.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonyvoicesacc1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/unaccompanied",
+                "unaccompanied"
+            ]
+        ],
+        "id": "accompanied"
+    },
+    "accordion": {
+        "levels": "n3",
+        "name": "Accordion",
+        "desc": [
+            "An instrument with a keyboard played with the right hand and buttons (which play chords) pressed by the left hand. The player pushes and pulls the two sides to operate the bellows.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/accordion2.mp3"
+            ]
+        ],
+        "id": "accordion"
+    },
+    "acoustic-guitar": {
+        "levels": "n3",
+        "name": "Acoustic guitar",
+        "desc": [
+            "The acoustic guitar is a stringed instrument that is played by plucking or strumming the strings with fingers, or using a plectrum. It has six strings and the hollow body amplifies the sound of the vibrating strings. An acoustic guitar does not need electricity to produce the sound.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/acousticguitar2.mp3"
+            ]
+        ],
+        "id": "acoustic-guitar"
+    },
+    "adagio": {
+        "levels": "n3",
+        "name": "Adagio",
+        "rel": [
+            "andante",
+            "allegro"
+        ],
+        "desc": [
+            "A slow tempo."
+        ],
+        "id": "adagio"
+    },
+    "allegro": {
+        "levels": "n3",
+        "name": "Allegro",
+        "rel": [
+            "adagio",
+            "andante"
+        ],
+        "desc": [
+            "A fast tempo."
+        ],
+        "id": "allegro"
+    },
+    "ascending": {
+        "levels": "n3",
+        "name": "Ascending",
+        "desc": [
+            "Notes which rise in pitch.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ascending1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/descending",
+                "descending"
+            ]
+        ],
+        "id": "ascending"
+    },
+    "bagpipes": {
+        "levels": "n3",
+        "name": "Bagpipes",
+        "desc": [
+            "A musical instrument having a flexible bag inflated either by a tube with valves or by bellows, a double-reed melody pipe, and from one to four drone pipes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bagpipes2.mp3"
+            ]
+        ],
+        "id": "bagpipes"
+    },
+    "beatpulse": {
+        "levels": "n3",
+        "name": "Beat/pulse",
+        "desc": [
+            "The basic pulse you hear in music. The pulse may be in groups of two, three or four with a stress on the first beat in each group."
+        ],
+        "id": "beat-pulse"
+    },
+    "blowing": {
+        "levels": "n3",
+        "name": "Blowing",
+        "desc": [
+            "The sound produced by blowing into or across the mouthpiece of the instrument, for example, brass or woodwind instruments.\nHere is an example of",
+            [
+                "link",
+                "/c/brass",
+                "brass"
+            ],
+            "instruments.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/brass2.mp3"
+            ],
+            "Here is an example of",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instruments.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/woodwind1.mp3"
+            ]
+        ],
+        "id": "blowing"
+    },
+    "blues": {
+        "levels": "n3",
+        "name": "Blues",
+        "desc": [
+            "Blues started as Black American folk music, developing from spirituals and work songs.\nBlues music is often in 4/4 time and is mostly patterned on a 12-bar structure and on a scale where some notes are flattened.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/blues2.mp3"
+            ]
+        ],
+        "id": "blues"
+    },
+    "bowing": {
+        "levels": "n3",
+        "name": "Bowing",
+        "desc": [
+            "Using the bow on a",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument. Bowing is also known as",
+            [
+                "link",
+                "/c/arco",
+                "arco"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strings1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/plucking",
+                "plucking"
+            ]
+        ],
+        "id": "bowing"
+    },
+    "brass": {
+        "levels": "n3",
+        "name": "Brass",
+        "desc": [
+            "Instruments made from metal with a mouthpiece e.g.",
+            [
+                "link",
+                "/c/trumpet",
+                "trumpet"
+            ],
+            ",",
+            [
+                "link",
+                "/c/french-horn",
+                "French horn"
+            ],
+            ",",
+            [
+                "link",
+                "/c/trombone",
+                "trombone"
+            ],
+            "and",
+            [
+                "link",
+                "/c/tuba",
+                "tuba"
+            ],
+            ". The sound is made by vibrating the lips.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/brass4.mp3"
+            ],
+            ""
+        ],
+        "id": "brass"
+    },
+    "choir": {
+        "levels": "n3",
+        "name": "Choir",
+        "desc": [
+            "A group of singers who perform together.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/AUDIO.mp3"
+            ]
+        ],
+        "id": "choir"
+    },
+    "chord": {
+        "levels": "n3",
+        "name": "Chord",
+        "desc": [
+            "Two or more notes sounding together.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chord1.mp3"
+            ]
+        ],
+        "id": "chord"
+    },
+    "chord-change": {
+        "levels": "n3",
+        "name": "Chord change",
+        "desc": [
+            "This excerpt features four",
+            [
+                "link",
+                "/c/chord",
+                "chords"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chord_change1.mp3"
+            ]
+        ],
+        "id": "chord-change"
+    },
+    "crescendo-2": {
+        "levels": "n3",
+        "name": "Crescendo",
+        "desc": [
+            "Getting gradually louder. The abbreviation is cresc.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/diminuendo",
+                "Diminuendo "
+            ]
+        ],
+        "id": "crescendo"
+    },
+    "descending": {
+        "levels": "n3",
+        "name": "Descending",
+        "desc": [
+            "Notes which fall in pitch.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/descending1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/ascending",
+                "ascending"
+            ]
+        ],
+        "id": "descending"
+    },
+    "diminuendo": {
+        "levels": "n3",
+        "name": "Diminuendo",
+        "rel": [
+            "crescendo"
+        ],
+        "desc": [
+            "Getting gradually quieter. The abbreviation is dim.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "diminuendo"
+    },
+    "discord": {
+        "levels": "n3",
+        "name": "Discord",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/chord",
+                "chord"
+            ],
+            "in which certain notes clash.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/discord1.mp3"
+            ]
+        ],
+        "id": "discord"
+    },
+    "drum-fill": {
+        "levels": "n3",
+        "name": "Drum fill",
+        "desc": [
+            "A rhythmic decoration played on a drum kit.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/drumfill1.mp3"
+            ]
+        ],
+        "id": "drum-fill"
+    },
+    "drum-kit": {
+        "levels": "n3",
+        "name": "Drum kit",
+        "desc": [
+            "A set of drums and cymbals often used by rock bands and pop groups.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/drumkit1.mp3"
+            ]
+        ],
+        "id": "drum-kit"
+    },
+    "electric-guitar": {
+        "levels": "n3",
+        "name": "Electric guitar",
+        "desc": [
+            "A guitar which does require electricity to produce sound.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/electricguitar3.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/acoustic-guitar",
+                "acoustic guitar"
+            ]
+        ],
+        "id": "electric-guitar"
+    },
+    "faster": {
+        "levels": "n3",
+        "name": "Faster",
+        "desc": [
+            "The tempo (speed) increases.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/accelerando2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/slower",
+                "slower"
+            ]
+        ],
+        "id": "faster"
+    },
+    "fiddle": {
+        "levels": "n3",
+        "name": "Fiddle",
+        "desc": [
+            "Another name for the",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            ", used in Scottish folk music.\nIn this excerpt, the melody is played by a fiddle.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/fiddle2.mp3"
+            ]
+        ],
+        "id": "fiddle"
+    },
+    "folk-group": {
+        "levels": "n3",
+        "name": "Folk group",
+        "desc": [
+            "A group of singers and instrumentalists who perform traditional music from a particular country, for example, Scotland.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/folkgroup1.mp3"
+            ]
+        ],
+        "id": "folk-group"
+    },
+    "forte": {
+        "levels": "n3",
+        "name": "Forte",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Loud. The abbreviation is f.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "forte"
+    },
+    "harmony": {
+        "levels": "n3",
+        "name": "Harmony",
+        "desc": [
+            "Two parts sounding different notes.\nIn this excerpt, the singers are singing different notes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonyvoicesunacc1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/unison",
+                "unison"
+            ]
+        ],
+        "id": "harmony"
+    },
+    "improvisation": {
+        "levels": "n3",
+        "name": "Improvisation",
+        "desc": [
+            "Making it up during a performance.\nIn this example the piano is improvising.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/improvisation1.mp3"
+            ]
+        ],
+        "id": "improvisation"
+    },
+    "jazz": {
+        "levels": "n3",
+        "name": "Jazz",
+        "desc": [
+            "At first this was music created by black Americans in the early 20th century.\nFeatures of the music may include",
+            [
+                "link",
+                "/c/syncopation",
+                "syncopation"
+            ],
+            "and",
+            [
+                "link",
+                "/c/improvisation",
+                "improvisation"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/jazz2.mp3"
+            ]
+        ],
+        "id": "jazz"
+    },
+    "latin-american": {
+        "levels": "n3",
+        "name": "Latin American",
+        "desc": [
+            "Dance music from South America. Percussion instruments provide lively off-beat dance rhythms.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/latinamerican3.mp3"
+            ]
+        ],
+        "id": "latin-american"
+    },
+    "leap-leaping": {
+        "levels": "n3",
+        "name": "Leap (leaping)",
+        "desc": [
+            "The notes are not next to each other.\nIn this excerpt, the notes which are sung move by leap.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/leap2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/step-stepwise",
+                "step (stepwise)"
+            ]
+        ],
+        "id": "leap-leaping"
+    },
+    "legato": {
+        "levels": "n3",
+        "name": "Legato",
+        "desc": [
+            "The notes are played smoothly.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/legato1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/staccato",
+                "staccato"
+            ]
+        ],
+        "id": "legato"
+    },
+    "march": {
+        "levels": "n3",
+        "name": "March",
+        "desc": [
+            "Music with a strong steady pulse, with two or four beats in a bar, and at a speed that is suitable to march to.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/march2.mp3"
+            ]
+        ],
+        "id": "march"
+    },
+    "musical": {
+        "levels": "n3",
+        "name": "Musical",
+        "desc": [
+            "A musical play which has speaking, singing and dancing and is performed on a stage.\nIn recent years the musical has seen a revival and may now deal with very dramatic stories and contain no dialogue.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/musical3.mp3"
+            ]
+        ],
+        "id": "musical"
+    },
+    "note-lengths-national-3": {
+        "levels": "n3",
+        "name": "Note lengths (National 3)",
+        "desc": [
+            [
+                "table",
+                [
+                    [
+                        "Sign      ",
+                        "Name",
+                        "Note length"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semibreve.png"
+                        ],
+                        "",
+                        "Semibreve",
+                        "4 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim2.png"
+                        ],
+                        "Dotted minim",
+                        "3 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim2.png"
+                        ],
+                        "Minim",
+                        "2 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet2.png"
+                        ],
+                        "Crotchet",
+                        "1 beat"
+                    ]
+                ]
+            ]
+        ],
+        "id": "note-lengths-national-3"
+    },
+    "octave": {
+        "levels": [
+            "n3",
+            "n4"
+        ],
+        "name": "Octave",
+        "desc": [
+            "The distance of 8 notes e.g. from D up to D.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/octave_1.mp3"
+            ]
+        ],
+        "id": "octave"
+    },
+    "off-the-beat": {
+        "levels": "n3",
+        "name": "Off the beat",
+        "desc": [
+            "In this excerpt, the claps are on beats 2 and 4 which are the weaker beats.\nSo, we can say that the claps are off the beat.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/offthebeat1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/on-the-beat",
+                "on the beat"
+            ]
+        ],
+        "id": "off-the-beat"
+    },
+    "on-the-beat": {
+        "levels": "n3",
+        "name": "On the beat",
+        "desc": [
+            "In this excerpt, the claps are on beats 1 and 3whichare the stronger beats. So, we can say that the claps are on the beat.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/onthebeat1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/off-the-beat",
+                "off the beat"
+            ]
+        ],
+        "id": "on-the-beat"
+    },
+    "orchestra": {
+        "levels": "n3",
+        "name": "Orchestra",
+        "desc": [
+            "A large group of string, woodwind, brass and percussion instruments.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/orchestra6.mp3"
+            ]
+        ],
+        "id": "orchestra"
+    },
+    "organ": {
+        "levels": "n3",
+        "name": "Organ",
+        "desc": [
+            "A keyboard instrument usually found in churches. It often has more than one keyboard, anda pedal keyboard that isplayed with the feet.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pipeorgan1.mp3"
+            ]
+        ],
+        "id": "organ"
+    },
+    "ostinato": {
+        "levels": "n3",
+        "name": "Ostinato",
+        "desc": [
+            "A short repeated pattern.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ostinato2.mp3"
+            ]
+        ],
+        "id": "ostinato"
+    },
+    "pause": {
+        "levels": "n3",
+        "name": "Pause",
+        "desc": [
+            "The musical flow is held up by a long note or silence.\nThere are 3 pauses in this excerpt.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/beats_4_1_pause.mp3"
+            ]
+        ],
+        "id": "pause"
+    },
+    "percussion": {
+        "levels": "n3",
+        "name": "Percussion",
+        "rel": [],
+        "desc": [
+            "Instruments that are played by striking, shaking or scraping.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/percussion2.mp3"
+            ],
+            [
+                "link",
+                "/c/tuned-percussion",
+                "tuned percussion"
+            ],
+            "",
+            [
+                "link",
+                "/c/untuned-percussion",
+                "untuned percussion"
+            ]
+        ],
+        "id": "percussion"
+    },
+    "piano": {
+        "levels": "n3",
+        "name": "Piano",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Quiet. The abbreviation is p.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "piano"
+    },
+    "piano-instrument": {
+        "levels": "n3",
+        "name": "Piano (instrument)",
+        "desc": [
+            "A keyboard instrument with strings.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/piano1.mp3"
+            ]
+        ],
+        "id": "piano-instrument"
+    },
+    "plucking": {
+        "levels": "n3",
+        "name": "Plucking",
+        "desc": [
+            "The sound made when you pluck the strings of a stringed instrument with a finger. Plucking is also known as",
+            [
+                "link",
+                "/c/pizzicato",
+                "pizzicato"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/bowing",
+                "bowing"
+            ]
+        ],
+        "id": "plucking"
+    },
+    "pop": {
+        "levels": "n3",
+        "name": "Pop",
+        "desc": [
+            "A style of popular music.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pop2.mp3"
+            ]
+        ],
+        "id": "pop"
+    },
+    "question-and-answer": {
+        "levels": "n3",
+        "name": "Question and answer",
+        "desc": [
+            "A musical phrase (question) which is followed by another (answer). These phrases usually balance each other.\nHere are three examples of the same musical \u2018question\u2019 with different answers.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/questionandanswer1.mp3"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/questionandanswer2.mp3"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/questionandanswer3.mp3"
+            ],
+            ""
+        ],
+        "id": "question-and-answer"
+    },
+    "reel": {
+        "levels": "n3",
+        "name": "Reel",
+        "desc": [
+            "A Scottish dance with 4 beats in a bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/reel4.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/waltz",
+                "waltz"
+            ]
+        ],
+        "id": "reel"
+    },
+    "repetition": {
+        "levels": "n3",
+        "name": "Repetition",
+        "desc": [
+            "An exact repeat of a musical idea.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/repetition1.mp3"
+            ]
+        ],
+        "id": "repetition"
+    },
+    "riff": {
+        "levels": "n3",
+        "name": "Riff",
+        "desc": [
+            "A short repeated pattern.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/riff3.mp3"
+            ]
+        ],
+        "id": "riff"
+    },
+    "rock": {
+        "levels": "n3",
+        "name": "Rock",
+        "desc": [
+            "A style of popular music with a heavy, driving beat. Usually features electric guitar, bass guitar and drum kit.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rock2.mp3"
+            ]
+        ],
+        "id": "rock"
+    },
+    "rock-n-roll": {
+        "levels": "n3",
+        "name": "Rock \u2018n\u2019 roll",
+        "desc": [
+            "1950s American music which grew from the combined styles of jazz, blues, gospel and country.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rocknroll1.mp3"
+            ]
+        ],
+        "id": "rock-n-roll"
+    },
+    "round": {
+        "levels": "n3",
+        "name": "Round",
+        "desc": [
+            "Each part has the same melody entering one after the other.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3_past_papers/sgc10q2a.mp3"
+            ]
+        ],
+        "id": "round"
+    },
+    "scottish": {
+        "levels": "n3",
+        "name": "Scottish",
+        "desc": [
+            "Traditional music of Scotland.\nThis excerpt is played by a",
+            [
+                "link",
+                "/c/scottishdanceband",
+                "Scottish dance band"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scottishdanceband1.mp3"
+            ]
+        ],
+        "id": "scottish"
+    },
+    "scottish-dance-band": {
+        "levels": "n3",
+        "name": "Scottish dance band",
+        "desc": [
+            "A band which plays Scottish music for people to dance to. The instruments may include",
+            [
+                "link",
+                "/c/fiddle",
+                "fiddle"
+            ],
+            ",",
+            [
+                "link",
+                "/c/accordion",
+                "accordion"
+            ],
+            ",",
+            [
+                "link",
+                "/c/piano-2",
+                "piano"
+            ],
+            "and",
+            [
+                "link",
+                "/c/drum-kit",
+                "drum kit"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scottishdanceband1.mp3"
+            ]
+        ],
+        "id": "scottish-dance-band"
+    },
+    "sequence": {
+        "levels": "n3",
+        "name": "Sequence",
+        "desc": [
+            "A melodic phrase which is repeated at a higher or lower pitch.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sequence1.mp3"
+            ]
+        ],
+        "id": "sequence"
+    },
+    "slower": {
+        "levels": "n3",
+        "name": "Slower",
+        "desc": [
+            "The tempo (speed) decreases.\nRelated Concept",
+            [
+                "link",
+                "/c/faster",
+                "faster"
+            ]
+        ],
+        "id": "slower"
+    },
+    "solo": {
+        "levels": "n3",
+        "name": "Solo",
+        "desc": [
+            "One instrument or voice.\nThis excerpt features a solo",
+            [
+                "link",
+                "/c/flute",
+                "flute"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/flute1.mp3"
+            ],
+            "This excerpt features a solo male voice with instrumental",
+            [
+                "link",
+                "/c/accompanied",
+                "accompaniment"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/baritone2.mp3"
+            ],
+            ""
+        ],
+        "id": "solo"
+    },
+    "staccato": {
+        "levels": "n3",
+        "name": "Staccato",
+        "desc": [
+            "The notes are short and detached.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/staccato1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/legato",
+                "legato"
+            ]
+        ],
+        "id": "staccato"
+    },
+    "steel-band": {
+        "levels": "n3",
+        "name": "Steel band",
+        "desc": [
+            "A West Indian band whose instruments are made out of oil drums called pans. The top of each drum is hammered into panels to make different pitches.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/steelband1.mp3"
+            ]
+        ],
+        "id": "steel-band"
+    },
+    "step-stepwise": {
+        "levels": "n3",
+        "name": "Step (stepwise)",
+        "desc": [
+            "The notes are next to each other.\nIn this excerpt the notes which are sung move by step.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/step5.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/leap-leaping",
+                "leap (leaping)"
+            ]
+        ],
+        "id": "step-stepwise"
+    },
+    "striking-hitting": {
+        "levels": "n3",
+        "name": "Striking (hitting)",
+        "desc": [
+            "The sound is produced by hitting.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/striking1.mp3"
+            ]
+        ],
+        "id": "striking-hitting"
+    },
+    "strings": {
+        "levels": "n3",
+        "name": "Strings",
+        "desc": [
+            "The family of instruments which have strings e.g.",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            ",",
+            [
+                "link",
+                "/c/viola",
+                "viola"
+            ],
+            ",",
+            [
+                "link",
+                "/c/cello",
+                "cello"
+            ],
+            ",",
+            [
+                "link",
+                "/c/double-bass",
+                "double bass"
+            ],
+            ". The sound is produced by bowing or plucking the strings.\nIn this example the strings are bowed (the Italian term is",
+            [
+                "link",
+                "/c/arco",
+                "arco"
+            ],
+            ").",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strings4.mp3"
+            ],
+            "In this example the strings are plucked(the Italian term is",
+            [
+                "link",
+                "/c/pizzicato",
+                "pizzicato"
+            ],
+            ").",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato2.mp3"
+            ]
+        ],
+        "id": "strings"
+    },
+    "strumming": {
+        "levels": "n3",
+        "name": "Strumming",
+        "desc": [
+            "A finger or plectrum is drawn across the strings of a guitar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strumming1.mp3"
+            ]
+        ],
+        "id": "strumming"
+    },
+    "unaccompanied": {
+        "levels": "n3",
+        "name": "Unaccompanied",
+        "desc": [
+            "No other instrument(s)are playing.\nIn this excerpt, the singers are unaccompanied.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonyvoicesunacc1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/accompanied",
+                "accompanied"
+            ]
+        ],
+        "id": "unaccompanied"
+    },
+    "unison": {
+        "levels": "n3",
+        "name": "Unison",
+        "desc": [
+            "Two players or singers sounding the same notes at the same time.\nIn this excerpt, the womenare singing in unison.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/unison1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/harmony",
+                "harmony"
+            ]
+        ],
+        "id": "unison"
+    },
+    "voice": {
+        "levels": "n3",
+        "name": "Voice",
+        "desc": [
+            "The human instrument used to speak or sing."
+        ],
+        "id": "voice"
+    },
+    "waltz": {
+        "levels": "n3",
+        "name": "Waltz",
+        "desc": [
+            "A dance with 3 beats in a bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/waltz1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/reel",
+                "reel"
+            ]
+        ],
+        "id": "waltz"
+    },
+    "woodwind": {
+        "levels": "n3",
+        "name": "Woodwind",
+        "desc": [
+            "Instruments made from wood or metal which are blown e.g.",
+            [
+                "link",
+                "/c/flute",
+                "flute"
+            ],
+            ",",
+            [
+                "link",
+                "/c/oboe",
+                "oboe"
+            ],
+            ",",
+            [
+                "link",
+                "/c/clarinet",
+                "clarinet"
+            ],
+            ",",
+            [
+                "link",
+                "/c/bassoon",
+                "bassoon"
+            ],
+            "and",
+            [
+                "link",
+                "/c/saxophone",
+                "saxophone"
+            ],
+            ". Woodwind instruments are not necessarily made of wood.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/woodwind1.mp3"
+            ]
+        ],
+        "id": "woodwind"
+    },
+    "a-tempo": {
+        "levels": "n4",
+        "name": "A tempo",
+        "desc": [
+            "An instruction to return to the speed that was played before the tempo changed."
+        ],
+        "id": "a-tempo"
+    },
+    "aba": {
+        "levels": "n4",
+        "name": "ABA",
+        "rel": [
+            "ab-binary",
+            "abaca-rondo"
+        ],
+        "desc": [
+            "A three part form: an A section followed by a B section, which is a different melody, than a return to the A section.\nThis is the same as",
+            [
+                "link",
+                "/c/ternary",
+                "ternary"
+            ],
+            "form.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ternary1.mp3"
+            ]
+        ],
+        "id": "aba"
+    },
+    "accelerando": {
+        "levels": "n4",
+        "name": "Accelerando",
+        "desc": [
+            "Getting gradually faster.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/accelerando2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/rallentando",
+                "Rallentando"
+            ]
+        ],
+        "id": "accelerando"
+    },
+    "african-music": {
+        "levels": "n4",
+        "name": "African music",
+        "desc": [
+            "Much African music features voices and/or African drums.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ghanaiande1.mp3"
+            ]
+        ],
+        "id": "african-music"
+    },
+    "alto": {
+        "levels": "n4",
+        "name": "Alto",
+        "rel": [
+            "soprano",
+            "tenor",
+            "bass"
+        ],
+        "desc": [
+            "The lowest female voice.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/alto2.mp3"
+            ]
+        ],
+        "id": "alto"
+    },
+    "anacrusis": {
+        "levels": "n4",
+        "name": "Anacrusis",
+        "desc": [
+            "The note(s) before the first strong beat of a phrase.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/anacrusis2.mp3"
+            ]
+        ],
+        "id": "anacrusis"
+    },
+    "andante": {
+        "levels": "n4",
+        "name": "Andante",
+        "rel": [
+            "adagio",
+            "allegro"
+        ],
+        "desc": [
+            "At a walking speed."
+        ],
+        "id": "andante"
+    },
+    "arpeggio": {
+        "levels": "n4",
+        "name": "Arpeggio",
+        "desc": [
+            "The notes of a chord are played separately.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/arpeggio_1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/broken-chord",
+                "Broken chord"
+            ]
+        ],
+        "id": "arpeggio"
+    },
+    "backing-vocals": {
+        "levels": "n4",
+        "name": "Backing vocals",
+        "desc": [
+            "Singers who support the lead singer(s) usually by singing in harmony in the background.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/backingvocals1.mp3"
+            ]
+        ],
+        "id": "backing-vocals"
+    },
+    "baroque": {
+        "levels": "n4",
+        "name": "Baroque",
+        "rel": [
+            "classical",
+            "romantic"
+        ],
+        "desc": [
+            "Music written between approximately 1600 \u2013 1750.\nThis is a Baroque instrumental excerpt.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/baroque2.mp3"
+            ]
+        ],
+        "id": "baroque"
+    },
+    "bass": {
+        "levels": "n4",
+        "name": "Bass",
+        "rel": [
+            "soprano",
+            "alto",
+            "tenor"
+        ],
+        "desc": [
+            "The lowest male voice.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bass1.mp3"
+            ]
+        ],
+        "id": "bass"
+    },
+    "bass-drum": {
+        "levels": "n4",
+        "name": "Bass drum",
+        "desc": [
+            [
+                "link",
+                "/c/bass-drum",
+                "Untuned percussion"
+            ],
+            ". A big drum, low in pitch.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassdrum1.mp3"
+            ]
+        ],
+        "id": "bass-drum"
+    },
+    "bass-guitar": {
+        "levels": "n4",
+        "name": "Bass guitar",
+        "desc": [
+            "A 4 string guitar which is pitched lower than a guitar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassguitar1.mp3"
+            ]
+        ],
+        "id": "bass-guitar"
+    },
+    "brass-band": {
+        "levels": "n4",
+        "name": "Brass band",
+        "desc": [
+            "A band with brass and percussion instruments.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/brassband3.mp3"
+            ]
+        ],
+        "id": "brass-band"
+    },
+    "broken-chord": {
+        "levels": "n4",
+        "name": "Broken chord",
+        "desc": [
+            "The notes of a chord are played separately.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/broken_chord_1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/arpeggio",
+                "Arpeggio"
+            ]
+        ],
+        "id": "broken-chord"
+    },
+    "cadenza": {
+        "levels": "n4",
+        "name": "Cadenza",
+        "desc": [
+            "A showy passage for soloist alone in a",
+            [
+                "link",
+                "/c/concerto",
+                "concerto"
+            ],
+            ".\nHere is a cadenza from a",
+            [
+                "link",
+                "/c/trumpet",
+                "trumpet"
+            ],
+            "concerto.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cadenza1.mp3"
+            ]
+        ],
+        "id": "cadenza"
+    },
+    "canon": {
+        "levels": "n4",
+        "name": "Canon",
+        "desc": [
+            "Each part has the same melody entering one after the other. Canon isthe same as",
+            [
+                "link",
+                "/c/round",
+                "round"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/canon1.mp3"
+            ]
+        ],
+        "id": "canon"
+    },
+    "cello": {
+        "levels": "n4",
+        "name": "Cello",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument which is larger than a violin and smallerthan a double bass.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cello1.mp3"
+            ]
+        ],
+        "id": "cello"
+    },
+    "change-of-key": {
+        "levels": "n4",
+        "name": "Change of key",
+        "desc": [
+            "A move from one key to another.\nIn this excerpt the change of key is 11 seconds form the start.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/modulation1.mp3"
+            ]
+        ],
+        "id": "change-of-key"
+    },
+    "chord-progression-i-iv-v": {
+        "levels": "n4",
+        "name": "Chord progression I, IV, V",
+        "desc": [
+            "A series of related chords built on the first, fourth and fifth notes of a major or minor scale\nThis example shows chords I, IV, V in the key of C major.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/chord_prog_145_graphic_1.png"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chord_prog_145_1.mp3"
+            ],
+            "This example shows chords I, IV, V in the key of A minor.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/chord_prog_145_graphic_2.png"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chord_prog_145_2.mp3"
+            ]
+        ],
+        "id": "chord-progression-i-iv-v"
+    },
+    "clarinet": {
+        "levels": "n4",
+        "name": "Clarinet",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instrument which uses a single reed.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/clarinet_1.png"
+            ],
+            "This is the clarinet mouthpiece. The reed is the light coloured piece of cane.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/clarinet_reed_1.png"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/clarinet1.mp3"
+            ]
+        ],
+        "id": "clarinet"
+    },
+    "compound-time": {
+        "levels": "n4",
+        "name": "Compound time",
+        "desc": [
+            "The beat subdivides into groups of 3 (the word \u201cstrawberry\u201d fits).\nIn this example there are 2 beats in a bar. Each beat subdivides into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/compoundtime_68_1.mp3"
+            ],
+            "In this example there are 3 beats in a bar. Each beat subdivides into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/compoundtime_98_1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/simple-time",
+                "Simple time"
+            ]
+        ],
+        "id": "compound-time"
+    },
+    "concerto": {
+        "levels": "n4",
+        "name": "Concerto",
+        "desc": [
+            "A work for solo instrument and orchestra.\nHere is an excerpt from a",
+            [
+                "link",
+                "/c/french-horn",
+                "French horn"
+            ],
+            "concerto.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/concerto1.mp3"
+            ],
+            "Here is an excerpt from a piano concerto.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/concerto2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/cadenza",
+                "Cadenza"
+            ]
+        ],
+        "id": "concerto"
+    },
+    "cymbals": {
+        "levels": "n4",
+        "name": "Cymbals",
+        "desc": [
+            [
+                "link",
+                "/c/untuned-percussion",
+                "Untuned percussion"
+            ],
+            ". Cymbals can be crashed together or struck with a stick or beater.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/cymbals_1.png"
+            ],
+            "This is an example of crashed cymbals.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cymbals1.mp3"
+            ]
+        ],
+        "id": "cymbals"
+    },
+    "distortion": {
+        "levels": "n4",
+        "name": "Distortion",
+        "desc": [
+            "An electronic effect used in rock music to colour the sound of an electric guitar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/distortion1.mp3"
+            ]
+        ],
+        "id": "distortion"
+    },
+    "dotted-rhythm": {
+        "levels": "n4",
+        "name": "Dotted rhythm",
+        "desc": [
+            "A long note followed by a short one or a short note followed by a long note.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/dottedrhythms2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/scotch-snap",
+                "Scotch snap"
+            ]
+        ],
+        "id": "dotted-rhythm"
+    },
+    "double-bass": {
+        "levels": "n4",
+        "name": "Double bass",
+        "desc": [
+            "The largest and lowest",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/doublebass1.mp3"
+            ]
+        ],
+        "id": "double-bass"
+    },
+    "drone": {
+        "levels": "n4",
+        "name": "Drone",
+        "desc": [
+            "A note held on or repeated in the bass.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/drone2.mp3"
+            ]
+        ],
+        "id": "drone"
+    },
+    "flute": {
+        "levels": "n4",
+        "name": "Flute",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instrument which is made of metal.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/flute1.mp3"
+            ]
+        ],
+        "id": "flute"
+    },
+    "glockenspiel": {
+        "levels": "n4",
+        "name": "Glockenspiel",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/tuned-percussion",
+                "tuned percussion"
+            ],
+            "instrument with metal bars.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/glockenspiel1.mp3"
+            ]
+        ],
+        "id": "glockenspiel"
+    },
+    "guiro": {
+        "levels": "n4",
+        "name": "G\u00fciro",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/untuned-percussion",
+                "untuned percussion"
+            ],
+            "instrument. It is made of hollowed out wood and scraped with a wooden stick.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/guiro1.mp3"
+            ]
+        ],
+        "id": "giro"
+    },
+    "harp": {
+        "levels": "n4",
+        "name": "Harp",
+        "desc": [],
+        "id": "harp"
+    },
+    "harpsichord": {
+        "levels": "n4",
+        "name": "Harpsichord",
+        "desc": [
+            "A keyboard instrument where the strings are plucked.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harpsichord1.mp3"
+            ]
+        ],
+        "id": "harpsichord"
+    },
+    "imitation": {
+        "levels": "n4",
+        "name": "Imitation",
+        "desc": [
+            "The melody is immediately copied in another part.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/imitation1.mp3"
+            ]
+        ],
+        "id": "imitation"
+    },
+    "jig": {
+        "levels": "n4",
+        "name": "Jig",
+        "rel": [
+            "wp-content/uploads/mp3/jig2.mp3",
+            "reel",
+            "strathspey",
+            "waltz"
+        ],
+        "desc": [
+            "A fast Scottish dance in compound time with 2 beats in a bar."
+        ],
+        "id": "jig"
+    },
+    "major-tonality": {
+        "levels": "n4",
+        "name": "Major tonality",
+        "desc": [
+            "The music sounds in a major key, often described as having a happy feel to it.\nThis excerpt is in a major key.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad_per2.mp3"
+            ],
+            "This excerpt is in a",
+            [
+                "link",
+                "/c/minor-tonality",
+                "minor"
+            ],
+            "key.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad_per3.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/minor-tonality",
+                "Minor tonality"
+            ]
+        ],
+        "id": "major-tonality"
+    },
+    "middle-eight": {
+        "levels": "n4",
+        "name": "Middle eight",
+        "desc": [
+            "In popular music, a section which provides a contrast to the opening section. It is often 8 bars long."
+        ],
+        "id": "middle-eight"
+    },
+    "minor-tonality": {
+        "levels": "n4",
+        "name": "Minor tonality",
+        "desc": [
+            "The music sounds in a minor key, often described as having a sadder feel than major.\nThis excerpt is in a minor key.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad_per3.mp3"
+            ],
+            "This excerpt is in a",
+            [
+                "link",
+                "/c/major-tonality",
+                "major"
+            ],
+            "key.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad_per2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/major-tonality",
+                "Major tonality"
+            ]
+        ],
+        "id": "minor-tonality"
+    },
+    "mouth-music": {
+        "levels": "n4",
+        "name": "Mouth music",
+        "desc": [
+            "Unaccompanied songs with Gaelic or nonsense words, normally sung for ceilidh dances.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/mouthmusic2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/scots-ballad",
+                "Scots ballad"
+            ]
+        ],
+        "id": "mouth-music"
+    },
+    "muted": {
+        "levels": "n4",
+        "name": "Muted",
+        "desc": [
+            "Using a device which changes the sound of an instrument.",
+            [
+                "link",
+                "/c/brass",
+                "Brass"
+            ],
+            "instruments and",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instruments can use mutes.\nHere are some trumpet mutes.\nThis is an example of a muted trumpet.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/trumpetmuted1.mp3"
+            ],
+            "Here is a violin mute.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/mute_violin_1.png"
+            ],
+            "Thisis an example of a muted violin.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/consordino3.mp3"
+            ]
+        ],
+        "id": "muted"
+    },
+    "note-lengths-national-4": {
+        "levels": "n4",
+        "name": "Note lengths (National 4)",
+        "desc": [
+            [
+                "table",
+                [
+                    [
+                        "Sign      ",
+                        "Name",
+                        "Note length"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semibreve.png"
+                        ],
+                        "",
+                        "Semibreve",
+                        "4 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim2.png"
+                        ],
+                        "Dotted minim",
+                        "3 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim2.png"
+                        ],
+                        "Minim",
+                        "2 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet2.png"
+                        ],
+                        "Crotchet",
+                        "1 beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/quaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/quaver_2.png"
+                        ],
+                        "Quaver",
+                        "\u00bd beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/paired_quavers_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/paired_quavers_2.png"
+                        ],
+                        "2 x Quavers",
+                        "\u00bd beat + \u00bd beat = 1 beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_2.png"
+                        ],
+                        "Semiquaver",
+                        "\u00bcbeat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquavers_grouped_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquavers_grouped_2.png"
+                        ],
+                        "4 x Semiquavers",
+                        "\u00bcbeat + \u00bc beat + \u00bc beat + \u00bc beat = 1 beat"
+                    ]
+                ]
+            ]
+        ],
+        "id": "note-lengths-national-4"
+    },
+    "opera": {
+        "levels": "n4",
+        "name": "Opera",
+        "desc": [
+            "A drama set to music with soloists, chorus, orchestra and acting.\nThis example features a solo",
+            [
+                "link",
+                "/c/tenor",
+                "tenor"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/opera1.mp3"
+            ],
+            "This example features a",
+            [
+                "link",
+                "/c/chorus",
+                "chorus"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/opera2.mp3"
+            ]
+        ],
+        "id": "opera"
+    },
+    "ornament": {
+        "levels": "n4",
+        "name": "Ornament",
+        "desc": [
+            "Decorating a melody by adding short notes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ornament1.mp3"
+            ]
+        ],
+        "id": "ornament"
+    },
+    "pan-pipes": {
+        "levels": "n4",
+        "name": "Pan pipes",
+        "desc": [
+            "Pipes which are graded in size and are bound together. The sound is made by blowing across the top of the pipes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/panpipes2.mp3"
+            ]
+        ],
+        "id": "pan-pipes"
+    },
+    "pedal": {
+        "levels": "n4",
+        "name": "Pedal",
+        "desc": [
+            "A held note or repeated notes in the bass beneath changing upper parts.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pedal1.mp3"
+            ]
+        ],
+        "id": "pedal"
+    },
+    "pentatonic": {
+        "levels": "n4",
+        "name": "Pentatonic",
+        "desc": [
+            "A five note scale e.g. the black notes on a keyboard.\n\u2018Auld Lang Syne\u2019 is a pentatonic melody.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pentatonic_1.mp3"
+            ],
+            "\u2018The Skye Boat Song\u2019 is another pentatonic melody.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pentatonic_2.mp3"
+            ]
+        ],
+        "id": "pentatonic"
+    },
+    "ragtime": {
+        "levels": "n4",
+        "name": "Ragtime",
+        "desc": [
+            "Ragtime features a",
+            [
+                "link",
+                "/c/syncopation",
+                "syncopated"
+            ],
+            "melody against a steady",
+            [
+                "link",
+                "/c/vamp",
+                "vamped"
+            ],
+            "accompaniment.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ragtime1.mp3"
+            ]
+        ],
+        "id": "ragtime"
+    },
+    "rallentando": {
+        "levels": "n4",
+        "name": "Rallentando",
+        "desc": [
+            "Getting gradually slower.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rallentando1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/accelerando",
+                "Accelerando"
+            ]
+        ],
+        "id": "rallentando"
+    },
+    "rapping": {
+        "levels": "n4",
+        "name": "Rapping",
+        "desc": [
+            "Rhyming lyrics that are spoken and performed in time to a beat. Rapping is popular in hip-hop.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rapping2.mp3"
+            ]
+        ],
+        "id": "rapping"
+    },
+    "recorder": {
+        "levels": "n4",
+        "name": "Recorder",
+        "desc": [
+            "There are four main types of recorder: descant, treble, tenor and bass.\nIn this excerpt, the melody is played by a descant recorder.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/recorder1.mp3"
+            ]
+        ],
+        "id": "recorder"
+    },
+    "reggae": {
+        "levels": "n4",
+        "name": "Reggae",
+        "desc": [
+            "This style was developed in the 1960s in Jamaica. It has strong accents on the 2nd and 4th beats of the bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/reggae1.mp3"
+            ]
+        ],
+        "id": "reggae"
+    },
+    "romantic": {
+        "levels": "n4",
+        "name": "Romantic",
+        "rel": [
+            "baroque",
+            "classical"
+        ],
+        "desc": [
+            "Music written between approximately 1810 \u2013 1900.\nThis orchestral excerpt is by Tchaikovsky.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/romantic1.mp3"
+            ]
+        ],
+        "id": "romantic"
+    },
+    "saxophone": {
+        "levels": "n4",
+        "name": "Saxophone",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instrument made of metal which uses a single reed.\nThis image shows four different sizes of saxophone. \nThis is an example of an alto saxophone.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/saxophonealto1.mp3"
+            ]
+        ],
+        "id": "saxophone"
+    },
+    "scale": {
+        "levels": "n4",
+        "name": "Scale",
+        "desc": [
+            "A set of notes moving by step.\nThis is an example of a",
+            [
+                "link",
+                "/c/major-tonality",
+                "major"
+            ],
+            "scale.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scale_major_1.mp3"
+            ],
+            "This is an example of a",
+            [
+                "link",
+                "/c/major-tonality",
+                "minor"
+            ],
+            "scale.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scale_minor_1.mp3"
+            ],
+            ""
+        ],
+        "id": "scale"
+    },
+    "scat-singing": {
+        "levels": "n4",
+        "name": "Scat singing",
+        "desc": [
+            "Nonsense words and sounds are made up by the singer. Used mainly in jazz.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scatsinging2.mp3"
+            ]
+        ],
+        "id": "scat-singing"
+    },
+    "scotch-snap": {
+        "levels": "n4",
+        "name": "Scotch snap",
+        "desc": [
+            "A very short accented note before a longer note. A feature of",
+            [
+                "link",
+                "/c/strathspey",
+                "strathspeys"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scotchsnap1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/dotted-rhythm",
+                "Dotted rhythm"
+            ]
+        ],
+        "id": "scotch-snap"
+    },
+    "scots-ballad": {
+        "levels": "n4",
+        "name": "Scots ballad",
+        "desc": [
+            "A slow Scottish song which tells a story.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/scotsballad1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/mouth-music",
+                "Mouth music"
+            ]
+        ],
+        "id": "scots-ballad"
+    },
+    "simple-time": {
+        "levels": "n4",
+        "name": "Simple time",
+        "desc": [
+            "The beat subdivides into groups of 2 (the word \u201ccoffee\u201d fits).\nIn this example there are 3 beats in a bar. Each beat subdivides into 2.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/simpletime_34_1.mp3"
+            ],
+            "In this example there are 4 beats in a bar. Each beat subdivides into 2.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/simpletime_44_1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/compound-time",
+                "Compound time"
+            ]
+        ],
+        "id": "simple-time"
+    },
+    "snare-drum": {
+        "levels": "n4",
+        "name": "Snare drum",
+        "desc": [
+            [
+                "link",
+                "/c/untuned-percussion",
+                "Untuned percussion"
+            ],
+            ". This drum can be played with sticks or brushes. The snares are a set of metal wires stretched across the bottom skin of the drum. The snares can be on giving a \u2018rattly\u2019 sound, or off, giving a \u2018dry\u2019 sound.\nExample of a snare drum with the snares on.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sidedrum1.mp3"
+            ],
+            "Example of a snare drum played with brushes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sidedrumbrushes1.mp3"
+            ]
+        ],
+        "id": "snare-drum"
+    },
+    "soprano": {
+        "levels": "n4",
+        "name": "Soprano",
+        "rel": [
+            "alto",
+            "tenor",
+            "bass"
+        ],
+        "desc": [
+            "The highest female voice.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/soprano2.mp3"
+            ]
+        ],
+        "id": "soprano"
+    },
+    "strathspey": {
+        "levels": "n4",
+        "name": "Strathspey",
+        "rel": [
+            "jig",
+            "reel",
+            "waltz"
+        ],
+        "desc": [
+            "A Scottish dance with 4 beats in a bar and usually with a",
+            [
+                "link",
+                "/c/scotch-snap",
+                "Scotch snap"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strathspey4.mp3"
+            ]
+        ],
+        "id": "strathspey"
+    },
+    "swing": {
+        "levels": "n4",
+        "name": "Swing",
+        "desc": [
+            "A jazz style which started in the 1930s, performed by a big band.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/swing1.mp3"
+            ]
+        ],
+        "id": "swing"
+    },
+    "syncopation": {
+        "levels": "n4",
+        "name": "Syncopation",
+        "desc": [
+            "Accented notes are played off or against the beat.\nThis excerpt of ragtime music features a syncopated melody."
+        ],
+        "id": "syncopation"
+    },
+    "tambourine": {
+        "levels": "n4",
+        "name": "Tambourine",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/untuned-percussion",
+                "untuned percussion"
+            ],
+            "instrument with jingles.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tambourine1.mp3"
+            ]
+        ],
+        "id": "tambourine"
+    },
+    "tenor": {
+        "levels": "n4",
+        "name": "Tenor",
+        "rel": [
+            "soprano",
+            "alto",
+            "bass"
+        ],
+        "desc": [
+            "The highest male voice.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tenor2.mp3"
+            ]
+        ],
+        "id": "tenor"
+    },
+    "ternary": {
+        "levels": "n4",
+        "name": "Ternary",
+        "rel": [
+            "ab-binary",
+            "abaca-rondo"
+        ],
+        "desc": [
+            "A three part form: an A section followed by a B section, which is a different melody, than a return to the A section.\nThis is the same as",
+            [
+                "link",
+                "/c/aba",
+                "ABA"
+            ],
+            "form.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ternary1.mp3"
+            ]
+        ],
+        "id": "ternary"
+    },
+    "theme-and-variation": {
+        "levels": "n4",
+        "name": "Theme and variation",
+        "desc": [
+            "The melody (theme) is heard then returns several times with variations.\nThis example of theme and variations is played by a",
+            [
+                "link",
+                "/c/recorder",
+                "recorder"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/themeandvariations1.mp3"
+            ]
+        ],
+        "id": "theme-and-variation"
+    },
+    "timpani": {
+        "levels": "n4",
+        "name": "Timpani",
+        "desc": [
+            [
+                "link",
+                "/c/tuned-percussion",
+                "Tuned percussion"
+            ],
+            ". A timpani is alarge copper coloured drum. The pitches of each drum can be changed, either by hand or by a pedal.\nThis example is played by 4 timpani.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/timpani1.mp3"
+            ]
+        ],
+        "id": "timpani"
+    },
+    "triangle": {
+        "levels": "n4",
+        "name": "Triangle",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/untuned-percussion",
+                "untuned percussion"
+            ],
+            "instrument struck with a beater.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/triangle1.mp3"
+            ]
+        ],
+        "id": "triangle"
+    },
+    "trombone": {
+        "levels": "n4",
+        "name": "Trombone",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/brass",
+                "brass"
+            ],
+            "instrument with a slide.\nThis is a trombone mouthpiece.\nIn this example the trombone includes a few glissandos.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/trombone1.mp3"
+            ]
+        ],
+        "id": "trombone"
+    },
+    "trumpet": {
+        "levels": "n4",
+        "name": "Trumpet",
+        "desc": [
+            "The highest",
+            [
+                "link",
+                "/c/brass",
+                "brass"
+            ],
+            "instrument.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/trumpet1.mp3"
+            ]
+        ],
+        "id": "trumpet"
+    },
+    "tuned-percussion": {
+        "levels": "n4",
+        "name": "Tuned percussion",
+        "desc": [
+            "Percussion instruments which can produce different pitches.",
+            [
+                "link",
+                "/c/glockenspiel",
+                "Glockenspiel"
+            ],
+            ",",
+            [
+                "link",
+                "/c/xylophone",
+                "xylophone"
+            ],
+            "and",
+            [
+                "link",
+                "/c/timpani",
+                "timpani"
+            ],
+            "are examples of tuned percussion instruments."
+        ],
+        "id": "tuned-percussion"
+    },
+    "untuned-percussion": {
+        "levels": "n4",
+        "name": "Untuned percussion",
+        "desc": [
+            "Percussion instruments with no fixed pitch.",
+            [
+                "link",
+                "/c/snare-drum",
+                "Snare drum"
+            ],
+            ",",
+            [
+                "link",
+                "/c/cymbals",
+                "cymbals"
+            ],
+            "and",
+            [
+                "link",
+                "/c/tambourine",
+                "tambourine"
+            ],
+            "are examples of untuned percussion."
+        ],
+        "id": "untuned-percussion"
+    },
+    "vamp": {
+        "levels": "n4",
+        "name": "Vamp",
+        "desc": [
+            "A rhythmic accompaniment with a bass note on the beat and a chord off the beat. Usually played on piano or guitar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/vamp1.mp3"
+            ]
+        ],
+        "id": "vamp"
+    },
+    "verse-and-chorus": {
+        "levels": "n4",
+        "name": "Verse and chorus",
+        "desc": [
+            "A form popular in many songs. The music of the verse will repeat, often with different words. The chorus normally repeats."
+        ],
+        "id": "verse-and-chorus"
+    },
+    "violin": {
+        "levels": "n4",
+        "name": "Violin",
+        "desc": [
+            "The highest",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/violin1.mp3"
+            ]
+        ],
+        "id": "violin"
+    },
+    "wind-band": {
+        "levels": "n4",
+        "name": "Wind band",
+        "desc": [
+            "A band with woodwind, brass and percussion instruments.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/windband2.mp3"
+            ]
+        ],
+        "id": "wind-band"
+    },
+    "xylophone": {
+        "levels": "n4",
+        "name": "Xylophone",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/tuned-percussion",
+                "tuned percussion"
+            ],
+            "instrument with wooden bars.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/xylophone1.mp3"
+            ]
+        ],
+        "id": "xylophone"
+    },
+    "128-2": {
+        "levels": "n5",
+        "name": "128",
+        "desc": [
+            "A compound time signature with 4 beats in a bar. Each beat subdivides into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/compoundtime_128_2.mp3"
+            ],
+            "",
+            [
+                "link",
+                "/c/68-2",
+                "6\n"
+            ],
+            "",
+            [
+                "link",
+                "/c/68-2",
+                "8"
+            ],
+            "",
+            [
+                "link",
+                "/c/98-2",
+                "9\n"
+            ],
+            "",
+            [
+                "link",
+                "/c/98-2",
+                "8"
+            ]
+        ],
+        "id": "128"
+    },
+    "68-2": {
+        "levels": "n5",
+        "name": "68",
+        "rel": [
+            "98-2",
+            "98-2"
+        ],
+        "desc": [
+            "A compound time signature with 2 beats in a bar. Each beat subdivides into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/compoundtime_68_1.mp3"
+            ],
+            [
+                "link",
+                "/c/128-2",
+                "12"
+            ],
+            "",
+            [
+                "link",
+                "/c/128-2",
+                "8"
+            ]
+        ],
+        "id": "68"
+    },
+    "98-2": {
+        "levels": "n5",
+        "name": "98",
+        "rel": [
+            "68-2",
+            "68-2",
+            "128-2",
+            "128-2"
+        ],
+        "desc": [
+            "A compound time signature with 3 beats in a bar. Each beat subdivides into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/compoundtime_98_1.mp3"
+            ]
+        ],
+        "id": "98"
+    },
+    "a-cappella": {
+        "levels": "n5",
+        "name": "A cappella",
+        "desc": [
+            "Unaccompaniedsinging.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/acappella2.mp3"
+            ]
+        ],
+        "id": "a-cappella"
+    },
+    "ab": {
+        "levels": "n5",
+        "name": "AB",
+        "rel": [
+            "aba-ternary",
+            "abaca-rondo"
+        ],
+        "desc": [
+            "A form in which the music is made up of two different sections labelled A and B. \nThis is the same as",
+            [
+                "link",
+                "/c/binary",
+                "binary"
+            ],
+            "form.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/binary1.mp3"
+            ]
+        ],
+        "id": "ab"
+    },
+    "abaca": {
+        "levels": "n5",
+        "name": "ABACA",
+        "rel": [
+            "ab-binary",
+            "aba-ternary"
+        ],
+        "desc": [
+            "A form where the first section (A) keeps returning in between different sections.\nThis is the same as",
+            [
+                "link",
+                "/c/rondo",
+                "rondo"
+            ],
+            "form."
+        ],
+        "id": "abaca"
+    },
+    "accidental": {
+        "levels": "n5",
+        "name": "Accidental",
+        "desc": [
+            "An accidental is a sign added to a note to change the pitch.",
+            [
+                "table",
+                [
+                    [
+                        "Sign",
+                        "Name",
+                        "Meaning of sign"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/sharp.png"
+                        ],
+                        "Sharp",
+                        "Raises a note by onesemitone"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/flat.png"
+                        ],
+                        "Flat",
+                        "Lowers a note by one semitone"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/natural.png"
+                        ],
+                        "Natural",
+                        "Cancels a sharp or flat"
+                    ]
+                ]
+            ]
+        ],
+        "id": "accidental"
+    },
+    "alberti-bass": {
+        "levels": "n5",
+        "name": "Alberti bass",
+        "desc": [
+            "Broken chord accompaniment in the bass, often used in keyboard music.",
+            [
+                "link",
+                "/c/wp-content/uploads/mp3/albertibass-3b.mp3",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/albertibass-3b.mp3"
+            ],
+            [
+                "link",
+                "/c/wp-content/uploads/mp3/albertibass-3b.mp3",
+                "albertibass-3b.mp3"
+            ]
+        ],
+        "id": "alberti-bass"
+    },
+    "arco": {
+        "levels": "n5",
+        "name": "Arco",
+        "desc": [
+            "Usingthe bow on a",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument.\nThis is an example of a",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            "playing arco.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/violin1.mp3"
+            ],
+            "This is an example of a string ensemble playing arco.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strings2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/pizzicato",
+                "Pizzicato"
+            ]
+        ],
+        "id": "arco"
+    },
+    "aria": {
+        "levels": "n5",
+        "name": "Aria",
+        "desc": [
+            "A solo sung in an operatic style.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/aria1.mp3"
+            ]
+        ],
+        "id": "aria"
+    },
+    "atonal": {
+        "levels": "n5",
+        "name": "Atonal",
+        "desc": [
+            "No feeling of key.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/atonal1.mp3"
+            ]
+        ],
+        "id": "atonal"
+    },
+    "baritone": {
+        "levels": "n5",
+        "name": "Baritone",
+        "desc": [
+            "A male singer between a tenor and bass.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/baritone2.mp3"
+            ]
+        ],
+        "id": "baritone"
+    },
+    "bassoon": {
+        "levels": "n5",
+        "name": "Bassoon",
+        "desc": [
+            "The lowest",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instrument. It uses a double reed.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassoon3.mp3"
+            ]
+        ],
+        "id": "bassoon"
+    },
+    "binary": {
+        "levels": "n5",
+        "name": "Binary",
+        "rel": [
+            "aba-ternary",
+            "abaca-rondo"
+        ],
+        "desc": [
+            "A form in which the music is made up of two different sections labelled A and B. \nThis is the same as",
+            [
+                "link",
+                "/c/ab-binary",
+                "AB"
+            ],
+            "form.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/binary1.mp3"
+            ]
+        ],
+        "id": "binary"
+    },
+    "bodhran": {
+        "levels": "n5",
+        "name": "Bodhran",
+        "desc": [
+            "A Celtic wooden drum held in one hand and played with a wooden beater.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bodhran2.mp3"
+            ]
+        ],
+        "id": "bodhran"
+    },
+    "bongo-drums": {
+        "levels": "n5",
+        "name": "Bongo drums",
+        "desc": [
+            [
+                "link",
+                "/c/untuned-percussion",
+                "Untuned percussion"
+            ],
+            ". The drums are joined in pairs and are usually played with the hands.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bongodrums1.mp3"
+            ]
+        ],
+        "id": "bongo-drums"
+    },
+    "bothy-ballad": {
+        "levels": "n5",
+        "name": "Bothy ballad",
+        "desc": [
+            "An unaccompanied folk song, usually with many verses, from north-east Scotland.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bothyballad2.mp3"
+            ]
+        ],
+        "id": "bothy-ballad"
+    },
+    "castanets": {
+        "levels": "n5",
+        "name": "Castanets",
+        "desc": [
+            [
+                "link",
+                "/c/untuned-percussion",
+                "Untuned percussion"
+            ],
+            "instrument popular in Spanish music.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/castanets_2.png"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/castanets2.mp3"
+            ]
+        ],
+        "id": "castanets"
+    },
+    "celtic-rock": {
+        "levels": "n5",
+        "name": "Celtic rock",
+        "desc": [
+            "A style that mixes Celtic folk music and rock.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/celticrock3.mp3"
+            ]
+        ],
+        "id": "celtic-rock"
+    },
+    "chord-progressions-using-i-iv-v-vi": {
+        "levels": "n5",
+        "name": "Chord progressions using I, IV, V, VI",
+        "desc": [
+            "DEFINITION."
+        ],
+        "id": "chord-progressions-using-i-iv-v-vi"
+    },
+    "chorus": {
+        "levels": "n5",
+        "name": "Chorus",
+        "desc": [
+            "Chorus has different meanings. It can mean\n1. A group of singers.\n2. Music written for thesesingers\nThis example, \u2018The Hallelujah Chorus\u2019, is written for a group of singers.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chorus1.mp3"
+            ],
+            "3. The refrain betweenverses of a song (seeverse and chorus)"
+        ],
+        "id": "chorus"
+    },
+    "chromatic": {
+        "levels": "n5",
+        "name": "Chromatic",
+        "desc": [
+            "Notes which move by the interval of a",
+            [
+                "link",
+                "/c/semitone",
+                "semitone"
+            ],
+            ".\nThis is a chromatic scale.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chromaticscale1.mp3"
+            ]
+        ],
+        "id": "chromatic"
+    },
+    "clarsach": {
+        "levels": "n5",
+        "name": "Clarsach",
+        "desc": [
+            "A small Scottish harp.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/clarsach3.mp3"
+            ]
+        ],
+        "id": "clarsach"
+    },
+    "classical": {
+        "levels": "n5",
+        "name": "Classical",
+        "rel": [
+            "baroque",
+            "romantic"
+        ],
+        "desc": [
+            "Music written between approximately 1750 \u2013 1810.\nThis excerpt is by Mozart.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/classical1.mp3"
+            ]
+        ],
+        "id": "classical"
+    },
+    "cluster": {
+        "levels": "n5",
+        "name": "Cluster",
+        "desc": [
+            "A chord made of consecutive notes which clash.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cluster1.mp3"
+            ]
+        ],
+        "id": "cluster"
+    },
+    "coda": {
+        "levels": "n5",
+        "name": "Coda",
+        "desc": [
+            "A passage at the end of a piece which finishes it off.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/coda1.mp3"
+            ]
+        ],
+        "id": "coda"
+    },
+    "con-sordino": {
+        "levels": "n5",
+        "name": "Con sordino",
+        "desc": [
+            "Con sordino means",
+            [
+                "link",
+                "/c/muted",
+                "muted"
+            ],
+            ". Using a device which changes the sound of an instrument.",
+            [
+                "link",
+                "/c/brass",
+                "Brass"
+            ],
+            "instruments and",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instruments can use mutes.\nHere are some",
+            [
+                "link",
+                "/c/trumpet",
+                "trumpet"
+            ],
+            "mutes.\nThis is an example of a muted trumpet.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/trumpetmuted1.mp3"
+            ],
+            "Here is a",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            "mute.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/mute_violin_1.png"
+            ],
+            "Thisis an example of a muted violin.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/consordino3.mp3"
+            ]
+        ],
+        "id": "con-sordino"
+    },
+    "contrapuntal": {
+        "levels": "n5",
+        "name": "Contrapuntal",
+        "desc": [
+            "A texture which consists of two or more independent melodic lines. It is similar to",
+            [
+                "link",
+                "/c/polyphonic",
+                "polyphonic"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/polyphony2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/homophonic",
+                "Homophonic"
+            ],
+            ""
+        ],
+        "id": "contrapuntal"
+    },
+    "contrary-motion": {
+        "levels": "n5",
+        "name": "Contrary motion",
+        "desc": [
+            "Two parts which move in opposite directions.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/contrarymotion1.mp3"
+            ]
+        ],
+        "id": "contrary-motion"
+    },
+    "countermelody": {
+        "levels": "n5",
+        "name": "Countermelody",
+        "desc": [
+            "A melody played against the main melody.\nIn this example, the singer has a melody and the instruments have the countermelody.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/countermelody1.mp3"
+            ]
+        ],
+        "id": "countermelody"
+    },
+    "cross-rhythms": {
+        "levels": "n5",
+        "name": "Cross rhythms",
+        "desc": [
+            "Contrasting rhythms played at the same time.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/crossrhythm1.mp3"
+            ]
+        ],
+        "id": "cross-rhythms"
+    },
+    "descant-voice": {
+        "levels": "n5",
+        "name": "Descant (voice)",
+        "desc": [
+            "A melody which is sung above the main melody.\nThis is an example of S.A.T.B. (soprano, alto, tenor, bass) voices singing a hymn tune.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/descant2without.mp3"
+            ],
+            "This excerpt starts the same, then a descant is heardabove the original melody.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/descant2.mp3"
+            ],
+            ""
+        ],
+        "id": "descant-v"
+    },
+    "episode": {
+        "levels": "n5",
+        "name": "Episode",
+        "desc": [
+            "A passage which links two important ideas."
+        ],
+        "id": "episode"
+    },
+    "flutter-tonguing": {
+        "levels": "n5",
+        "name": "Flutter tonguing",
+        "desc": [
+            "A method of playing a",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "or",
+            [
+                "link",
+                "/c/brass",
+                "brass"
+            ],
+            "instrument where the player rolls the letter r.\nThis is an example of flutter tonguing on a",
+            [
+                "link",
+                "/c/flute",
+                "flute"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/fluttertonguing2.mp3"
+            ]
+        ],
+        "id": "flutter-tonguing"
+    },
+    "fortissimo": {
+        "levels": "n5",
+        "name": "Fortissimo",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Very loud. The abbreviation is ff.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "fortissimo"
+    },
+    "french-horn": {
+        "levels": "n5",
+        "name": "French horn",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/brass",
+                "brass"
+            ],
+            "instrument with a circular shape.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/frenchhorn1.mp3"
+            ]
+        ],
+        "id": "french-horn"
+    },
+    "gaelic-psalm": {
+        "levels": "n5",
+        "name": "Gaelic psalm",
+        "desc": [
+            "Slow, unaccompanied Gaelic church tunes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/gaelicpsalm2.mp3"
+            ]
+        ],
+        "id": "gaelic-psalm"
+    },
+    "glissando": {
+        "levels": "n5",
+        "name": "Glissando",
+        "desc": [
+            "Sliding from one note to another.\nIn this example a",
+            [
+                "link",
+                "/c/trombone",
+                "trombone"
+            ],
+            "plays a glissando.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tromboneglissando1.mp3"
+            ]
+        ],
+        "id": "glissando"
+    },
+    "gospel-2": {
+        "levels": "n5",
+        "name": "Gospel",
+        "desc": [
+            "Songs written with religious lyrics in a popular style.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/gospel1.mp3"
+            ]
+        ],
+        "id": "gospel"
+    },
+    "grace-note": {
+        "levels": "n5",
+        "name": "Grace note",
+        "desc": [
+            "A type of",
+            [
+                "link",
+                "/c/ornament",
+                "ornament"
+            ],
+            "played as a quick, crushed note before the main note of a melody\nIn this excerpt, a",
+            [
+                "link",
+                "/c/clarsach",
+                "clarsach"
+            ],
+            "plays a melody which includes grace notes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/clarsach1.mp3"
+            ]
+        ],
+        "id": "grace-note"
+    },
+    "ground-bass": {
+        "levels": "n5",
+        "name": "Ground bass",
+        "desc": [
+            "A theme in the bass which is repeated many times while the upper parts are varied.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/groundbass3.mp3"
+            ]
+        ],
+        "id": "ground-bass"
+    },
+    "hi-hat-cymbals": {
+        "levels": "n5",
+        "name": "Hi-hat cymbals",
+        "desc": [
+            [
+                "link",
+                "/c/untuned-percussion",
+                "Untuned percussion"
+            ],
+            ". Used as part of a drumkit, they consist of two cymbals (one upside down) that are opened and closed with a foot pedal.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/hihat1.mp3"
+            ]
+        ],
+        "id": "hi-hat-cymbals"
+    },
+    "homophonic": {
+        "levels": "n5",
+        "name": "Homophonic",
+        "rel": [
+            "wp-content/uploads/mp3/homophony1.mp3",
+            "polyphonic",
+            "contrapuntal"
+        ],
+        "desc": [
+            "Texture where you hear a melody with accompaniment, or, where all the parts play a similar rhythm at the same time.\nThis example features a melody with accompaniment.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/homophony3.mp3"
+            ],
+            "Inthis example, all the parts play a similar rhythm at the same time."
+        ],
+        "id": "homophonic"
+    },
+    "imperfect-cadence": {
+        "levels": "n5",
+        "name": "Imperfect cadence",
+        "rel": [],
+        "desc": [
+            "The last chord at the end of a phrase is V.\nIt sounds unfinished.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad1_imp1.mp3"
+            ],
+            [
+                "link",
+                "/c/perfect-cadence",
+                "Perfect cadence"
+            ],
+            [
+                "link",
+                "/c/plagal-cadence",
+                "Plagal cadence"
+            ],
+            [
+                "link",
+                "/c/interrupted-cadence",
+                "Interrupted cadence"
+            ]
+        ],
+        "id": "imperfect-cadence"
+    },
+    "indian": {
+        "levels": "n5",
+        "name": "Indian",
+        "desc": [
+            "Music from India which uses instruments such as the",
+            [
+                "link",
+                "/c/sitar",
+                "sitar"
+            ],
+            "and",
+            [
+                "link",
+                "/c/tabla",
+                "tabla"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/indian1.mp3"
+            ]
+        ],
+        "id": "indian"
+    },
+    "inverted-pedal": {
+        "levels": "n5",
+        "name": "Inverted pedal",
+        "desc": [
+            "A note held, or repeated, in an upper part.\nIn this example the",
+            [
+                "link",
+                "/c/violin",
+                "violins"
+            ],
+            "play the inverted pedal.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/invertedpedal1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/pedal",
+                "Pedal"
+            ]
+        ],
+        "id": "inverted-pedal"
+    },
+    "melismatic": {
+        "levels": "n5",
+        "name": "Melismatic",
+        "desc": [
+            "Vocal music where several notes are sung to each syllable.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/melismatic1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/syllabic",
+                "Syllabic"
+            ]
+        ],
+        "id": "melismatic"
+    },
+    "mezzo-forte": {
+        "levels": "n5",
+        "name": "Mezzo forte",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Fairly loud. The abbreviation is mf.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "mezzo-forte"
+    },
+    "mezzo-piano": {
+        "levels": "n5",
+        "name": "Mezzo piano",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Fairly quiet. The abbreviation is mp.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "mezzo-piano"
+    },
+    "mezzo-soprano": {
+        "levels": "n5",
+        "name": "Mezzo soprano",
+        "desc": [
+            "A female singer between a soprano and alto.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/mezzosoprano1.mp3"
+            ]
+        ],
+        "id": "mezzo-soprano"
+    },
+    "minimalist": {
+        "levels": "n5",
+        "name": "Minimalist",
+        "desc": [
+            "A 20th century style where simple rhythmic and melodic figures are constantly repeated with very slight changes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/minimalist1.mp3"
+            ]
+        ],
+        "id": "minimalist"
+    },
+    "moderato": {
+        "levels": "n5",
+        "name": "Moderato",
+        "desc": [
+            "A medium speed."
+        ],
+        "id": "moderato"
+    },
+    "modulation": {
+        "levels": "n5",
+        "name": "Modulation",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/change-of-key",
+                "change of key"
+            ],
+            ".\nThis excerpt modulates 11 seconds from the start.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/modulation1.mp3"
+            ]
+        ],
+        "id": "modulation"
+    },
+    "note-lengths-national-5": {
+        "levels": "n5",
+        "name": "Note lengths (National 5)",
+        "desc": [
+            [
+                "table",
+                [
+                    [
+                        "Sign      ",
+                        "Name",
+                        "Note length"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semibreve.png"
+                        ],
+                        "",
+                        "Semibreve",
+                        "4 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dottedminim2.png"
+                        ],
+                        "Dotted minim",
+                        "3 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/minim2.png"
+                        ],
+                        "Minim",
+                        "2 beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_crotchet_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_crotchet_2.png"
+                        ],
+                        "Dotted crotchet",
+                        "1\u00bd beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet_2.png"
+                        ],
+                        "Crotchet",
+                        "1beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_quaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_quaver_2.png"
+                        ],
+                        "Dotted quaver",
+                        "\u00be beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/quaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/quaver_2.png"
+                        ],
+                        "Quaver",
+                        "\u00bd beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/paired_quavers_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/paired_quavers_2.png"
+                        ],
+                        "2 x Quavers",
+                        "\u00bd beat + \u00bd beat = 1 beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_2.png"
+                        ],
+                        "Semiquaver",
+                        "\u00bcbeat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquavers_grouped_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquavers_grouped_2.png"
+                        ],
+                        "4 x Semiquavers",
+                        "\u00bc beat + \u00bc beat + \u00bc beat + \u00bc beat = 1 beat"
+                    ],
+                    [
+                        "Varied groupings of notes",
+                        "Total number of beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_crotchet_quaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_crotchet_quaver_2.png"
+                        ],
+                        "Dotted crotchet + quaver",
+                        "1\u00bd beats + \u00bd beat = 2beats"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_quaver_semiquaver_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_quaver_semiquaver_2.png"
+                        ],
+                        "Dotted quaver + semiquaver",
+                        "\u00be beat + \u00bc beat = 1 beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/scotch_snap_1.png"
+                        ],
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/scotch_snap_2.png"
+                        ],
+                        "Scotch snap",
+                        "\u00bcbeat + \u00be beat = 1 beat"
+                    ]
+                ]
+            ]
+        ],
+        "id": "note-lengths-national-5"
+    },
+    "oboe": {
+        "levels": "n5",
+        "name": "Oboe",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/woodwind",
+                "woodwind"
+            ],
+            "instrument with a double reed.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/oboe1.mp3"
+            ]
+        ],
+        "id": "oboe"
+    },
+    "perfect-cadence": {
+        "levels": "n5",
+        "name": "Perfect cadence",
+        "rel": [],
+        "desc": [
+            "Chords V I at the end of a phrase.\nIt sounds finished.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad1_per1.mp3"
+            ],
+            [
+                "link",
+                "/c/plagal-cadence",
+                "Plagal cadence"
+            ],
+            [
+                "link",
+                "/c/imperfect-cadence",
+                "Imperfect cadence"
+            ],
+            [
+                "link",
+                "/c/interrupted-cadence",
+                "Interrupted cadence"
+            ]
+        ],
+        "id": "perfect-cadence"
+    },
+    "pianissimo": {
+        "levels": "n5",
+        "name": "Pianissimo",
+        "rel": [
+            "crescendo",
+            "diminuendo"
+        ],
+        "desc": [
+            "Very quiet. The abbreviation is pp.",
+            [
+                "table",
+                [
+                    [
+                        "Dynamic",
+                        "Abbreviation",
+                        "Meaning"
+                    ],
+                    [
+                        "Fortissimo\nForte\nMezzo forte\nMezzo piano\nPiano\nPianissimo",
+                        "ff\nf\nmf\nmp\np\npp",
+                        "Very loud\nLoud\nFairly loud\nFairly quiet\nQuiet\nVery quiet"
+                    ]
+                ]
+            ]
+        ],
+        "id": "pianissimo"
+    },
+    "pibroch": {
+        "levels": "n5",
+        "name": "Pibroch",
+        "desc": [
+            "The Classical form of the highland bagpipe in theme and variation form.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pibroch1.mp3"
+            ]
+        ],
+        "id": "pibroch"
+    },
+    "piccolo": {
+        "levels": "n5",
+        "name": "Piccolo",
+        "desc": [
+            "A half sized",
+            [
+                "link",
+                "/c/flute",
+                "flute"
+            ],
+            "which plays an octave higher than a flute.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/piccolo1.mp3"
+            ]
+        ],
+        "id": "piccolo"
+    },
+    "pitch-bend": {
+        "levels": "n5",
+        "name": "Pitch bend",
+        "desc": [
+            "Changing the pitch of a note, for example, by pushing a guitar string upwards."
+        ],
+        "id": "pitch-bend"
+    },
+    "pizzicato": {
+        "levels": "n5",
+        "name": "Pizzicato",
+        "desc": [
+            "Plucking a",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument.\nThis is an example of a",
+            [
+                "link",
+                "/c/double-bass",
+                "double bass"
+            ],
+            "playing pizzicato.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato4.mp3"
+            ],
+            "This is an example of a string ensembleplaying pizzicato.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato2.mp3"
+            ],
+            ""
+        ],
+        "id": "pizzicato"
+    },
+    "polyphonic": {
+        "levels": "n5",
+        "name": "Polyphonic",
+        "desc": [
+            "A texture which consists of two or more independent melodic lines. It is similar to",
+            [
+                "link",
+                "/c/contrapuntal",
+                "contrapuntal"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/polyphony2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/homophonic",
+                "Homophonic"
+            ]
+        ],
+        "id": "polyphonic"
+    },
+    "reverb": {
+        "levels": "n5",
+        "name": "Reverb",
+        "desc": [
+            "An electronic effect which can give the impression of different hall acoustics.For example, reverb can make a piece of musicsoundas if the performance is taking place in a cathedral.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/reverb1.mp3"
+            ]
+        ],
+        "id": "reverb"
+    },
+    "ritardando": {
+        "levels": "n5",
+        "name": "Ritardando",
+        "desc": [
+            "The tempo slows down."
+        ],
+        "id": "ritardando"
+    },
+    "rolls": {
+        "levels": "n5",
+        "name": "Rolls",
+        "desc": [
+            "Very fast repetition of a note on a percussion instrument.\nThis is an example of a",
+            [
+                "link",
+                "/c/snare-drum",
+                "snare drum"
+            ],
+            "roll.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rolls1.mp3"
+            ]
+        ],
+        "id": "rolls"
+    },
+    "rondo": {
+        "levels": "n5",
+        "name": "Rondo",
+        "rel": [
+            "ab-binary",
+            "aba-ternary"
+        ],
+        "desc": [
+            "A form where the first section (A) keeps returning in between different sections.\nThis is the same as",
+            [
+                "link",
+                "/c/abaca-rondo",
+                "ABACA"
+            ],
+            "form."
+        ],
+        "id": "rondo"
+    },
+    "rubato": {
+        "levels": "n5",
+        "name": "Rubato",
+        "desc": [
+            "The tempo slightly speeds up and slows down to allow for expression. It literally means \u2018robbed time\u2019.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/rubato1.mp3"
+            ]
+        ],
+        "id": "rubato"
+    },
+    "semitone": {
+        "levels": "n5",
+        "name": "Semitone",
+        "rel": [],
+        "desc": [
+            "The smallest distance between two notes.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/semitone1.mp3"
+            ],
+            [
+                "link",
+                "/c/tone",
+                "Tone"
+            ],
+            "",
+            [
+                "link",
+                "/c/chromatic",
+                "Chromatic"
+            ]
+        ],
+        "id": "semitone"
+    },
+    "sforzando": {
+        "levels": "n5",
+        "name": "Sforzando",
+        "desc": [
+            "A sudden loud accent. The abbreviation is sfz."
+        ],
+        "id": "sforzando"
+    },
+    "sitar": {
+        "levels": "n5",
+        "name": "Sitar",
+        "desc": [
+            "A plucked string instrument from India.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sitar1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/tabla",
+                "Tabla"
+            ]
+        ],
+        "id": "sitar"
+    },
+    "strophic": {
+        "levels": "n5",
+        "name": "Strophic",
+        "desc": [
+            "Each verse of a vocal piece has the same music.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/strophic1.mp3"
+            ]
+        ],
+        "id": "strophic"
+    },
+    "syllabic": {
+        "levels": "n5",
+        "name": "Syllabic",
+        "desc": [
+            "Vocal music where each note is given one syllable.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/syllabic2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/melismatic",
+                "Melismatic"
+            ]
+        ],
+        "id": "syllabic"
+    },
+    "symphony": {
+        "levels": "n5",
+        "name": "Symphony",
+        "desc": [
+            "A large work for orchestra usually in four movements.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/symphony2.mp3"
+            ]
+        ],
+        "id": "symphony"
+    },
+    "tabla": {
+        "levels": "n5",
+        "name": "Tabla",
+        "desc": [
+            "Two Indian drums.",
+            [
+                "image",
+                "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/tabla_1.png"
+            ],
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tabla1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/sitar",
+                "sitar"
+            ]
+        ],
+        "id": "tabla"
+    },
+    "tone": {
+        "levels": "n5",
+        "name": "Tone",
+        "desc": [
+            "Two semitones.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tone1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/semitone",
+                "Semitone"
+            ],
+            "",
+            [
+                "link",
+                "/c/chromatic",
+                "Chromatic"
+            ]
+        ],
+        "id": "tone"
+    },
+    "trill": {
+        "levels": "n5",
+        "name": "Trill",
+        "desc": [
+            "Moving quickly and repeatedly between adjacent notes.\nIn this example the",
+            [
+                "link",
+                "/c/clarinet",
+                "clarinet"
+            ],
+            "has fourtrills.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/trill2.mp3"
+            ]
+        ],
+        "id": "trill"
+    },
+    "tuba": {
+        "levels": "n5",
+        "name": "Tuba",
+        "desc": [
+            "The largest and lowest brass instrument.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tuba1.mp3"
+            ]
+        ],
+        "id": "tuba"
+    },
+    "viola": {
+        "levels": "n5",
+        "name": "Viola",
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument which is slightly larger and lower than a",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/viola1.mp3"
+            ]
+        ],
+        "id": "viola"
+    },
+    "walking-bass": {
+        "levels": "n5",
+        "name": "Walking bass",
+        "desc": [
+            "A moving bass line with notes usually of the same value. It is often found in jazz styles.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/walkingbass3.mp3"
+            ]
+        ],
+        "id": "walking-bass"
+    },
+    "waulking-song": {
+        "levels": "n5",
+        "name": "Waulking song",
+        "desc": [
+            "Gaelic work song sung when beating tweed.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/waulkingsong1.mp3"
+            ]
+        ],
+        "id": "waulking-song"
+    },
+    "whole-tone-scale-2": {
+        "levels": "n5",
+        "name": "Whole tone scale",
+        "desc": [
+            "A scale where every",
+            [
+                "link",
+                "/c/interval",
+                "interval"
+            ],
+            "is a",
+            [
+                "link",
+                "/c/tone",
+                "tone"
+            ],
+            ". It sounds vague.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/wholetonescale2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/impressionist",
+                "Impressionist"
+            ]
+        ],
+        "id": "whole-tone-scale"
+    },
+    "3-against-2": {
+        "levels": "h",
+        "name": "3 against 2",
+        "desc": [
+            "The effect of three notes played against two.\nIn this example the bass subdivides the beat into 2 while the melodysubdivides the beat into 3.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/threeagainstt1.mp3"
+            ]
+        ],
+        "id": "3-against-2"
+    },
+    "acciaccatura": {
+        "levels": "h",
+        "name": "Acciaccatura",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/ornament",
+                "ornament "
+            ],
+            "which sounds like a crushed note played very quickly on the beat or just before it.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/acciaccatura4.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/mordent",
+                "Mordent"
+            ]
+        ],
+        "id": "acciaccatura"
+    },
+    "added-6th": {
+        "levels": "h",
+        "name": "Added 6th",
+        "rel": [],
+        "desc": [
+            "For example\nC E G A",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/add61.mp3"
+            ],
+            [
+                "link",
+                "/c/diminished-7th",
+                "Diminished 7th"
+            ],
+            [
+                "link",
+                "/c/dominant-7th",
+                "Dominant 7th"
+            ]
+        ],
+        "id": "added-6th"
+    },
+    "augmentation": {
+        "levels": "h",
+        "name": "Augmentation",
+        "desc": [
+            "An increase in the length of notes.\nIn this example a melody is heard three times. During the third playing the note lengths increase.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/augmentation2.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/diminution",
+                "Diminution"
+            ]
+        ],
+        "id": "augmentation"
+    },
+    "basso-continuo": {
+        "levels": "h",
+        "name": "Basso continuo",
+        "desc": [
+            "In the",
+            [
+                "link",
+                "/c/baroque",
+                "Baroque"
+            ],
+            "period, the basso continuo consists of a single bass line (for example, a",
+            [
+                "link",
+                "/c/cello",
+                "cello"
+            ],
+            ") with a keyboard part (for example, a",
+            [
+                "link",
+                "/c/harpsichord",
+                "harpsichord"
+            ],
+            ") filling in the harmonies The basso continuo supports one or moremelody lines.\nThis example features a solo flute and basso continuo (cello and harpsichord).",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassocontinuo2.mp3"
+            ]
+        ],
+        "id": "basso-continuo"
+    },
+    "chamber-music": {
+        "levels": "h",
+        "name": "Chamber music",
+        "desc": [
+            "Music written for a small instrumental ensemble with one player to a part.\nThis example of chamber music is played by a",
+            [
+                "link",
+                "/c/string-quartet",
+                "string quartet"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/stringquartet3.mp3"
+            ]
+        ],
+        "id": "chamber-music"
+    },
+    "coloratura": {
+        "levels": "h",
+        "name": "Coloratura",
+        "desc": [
+            "High, florid singing involving elaborate ornamentation of a melody.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/coloratura1.mp3"
+            ]
+        ],
+        "id": "coloratura"
+    },
+    "concertino": {
+        "levels": "h",
+        "name": "Concertino",
+        "desc": [
+            "The small group of solo instrumentalists in a",
+            [
+                "link",
+                "/c/concerto-grosso",
+                "concerto grosso"
+            ],
+            ". \nRelated Concept",
+            [
+                "link",
+                "/c/ripieno",
+                "ripieno"
+            ]
+        ],
+        "id": "concertino"
+    },
+    "concerto-grosso": {
+        "levels": "h",
+        "name": "Concerto grosso",
+        "desc": [
+            "A small group of soloists (",
+            [
+                "link",
+                "/c/concertino",
+                "concertino"
+            ],
+            ") contrasts with a larger group of instrumentalists (",
+            [
+                "link",
+                "/c/ripieno",
+                "ripieno"
+            ],
+            "). The concerto grosso developed in the",
+            [
+                "link",
+                "/c/baroque",
+                "Baroque"
+            ],
+            "period.\nRelated Concept",
+            [
+                "link",
+                "/c/basso-continuo",
+                "Basso continuo"
+            ]
+        ],
+        "id": "concerto-grosso"
+    },
+    "da-capo": {
+        "levels": "h",
+        "name": "Da capo",
+        "desc": [
+            "Da capo is an instruction to repeat from the beginning of the sheet music. It is often abbreviated to D.C."
+        ],
+        "id": "da-capo"
+    },
+    "da-capo-aria": {
+        "levels": "h",
+        "name": "Da capo aria",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/aria",
+                "aria"
+            ],
+            "in",
+            [
+                "link",
+                "/c/ternary",
+                "ternary"
+            ],
+            "form used in",
+            [
+                "link",
+                "/c/opera",
+                "opera"
+            ],
+            "and",
+            [
+                "link",
+                "/c/oratorio",
+                "oratorio"
+            ],
+            ". The 3rd section was not written out and was often",
+            [
+                "link",
+                "/c/ornament",
+                "ornamented"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/AUDIO.mp3"
+            ]
+        ],
+        "id": "da-capo-aria"
+    },
+    "diminished-7th": {
+        "levels": "h",
+        "name": "Diminished 7th",
+        "desc": [
+            "For example\nC Eb F# A",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/dim72.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/added-6th",
+                "Added 6th"
+            ],
+            "",
+            [
+                "link",
+                "/c/dominant-7th",
+                "Dominant 7th"
+            ]
+        ],
+        "id": "diminished-7th"
+    },
+    "diminished-7th-2": {
+        "levels": "h",
+        "name": "Diminished triad",
+        "desc": [
+            "For example\nC Eb Gb\nRelated Concept",
+            [
+                "link",
+                "/c/diminished-7th",
+                "Diminished 7th"
+            ]
+        ],
+        "id": "diminished-triad"
+    },
+    "diminution": {
+        "levels": "h",
+        "name": "Diminution",
+        "desc": [
+            "A decrease in the length of notes.\nIn this example a melody is heard three times. During the third playing the note lengths decrease.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/diminution1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/augmentation",
+                "Augmentation"
+            ]
+        ],
+        "id": "diminution"
+    },
+    "dominant-7th": {
+        "levels": "h",
+        "name": "Dominant 7th",
+        "rel": [],
+        "desc": [
+            "For example\nC E G Bb",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/dom71.mp3"
+            ],
+            [
+                "link",
+                "/c/added-6th",
+                "Added 6th"
+            ],
+            "",
+            [
+                "link",
+                "/c/diminshed-7th",
+                "Diminished 7th"
+            ]
+        ],
+        "id": "dominant-7th"
+    },
+    "exposition": {
+        "levels": "h",
+        "name": "Exposition",
+        "desc": [
+            "The first section of a movement in",
+            [
+                "link",
+                "/c/sonata-form",
+                "sonata form"
+            ],
+            ".\nRelated Concept",
+            [
+                "link",
+                "/c/subject",
+                "subject"
+            ]
+        ],
+        "id": "exposition"
+    },
+    "harmonic-minor-scale": {
+        "levels": "h",
+        "name": "Harmonic minor scale",
+        "desc": [
+            "For example\nC D Eb F G Ab B C\nSounds middle eastern.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonicminor1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/melodic-minor-scale",
+                "Melodic minor scale"
+            ]
+        ],
+        "id": "harmonic-minor-scale"
+    },
+    "harmonics": {
+        "levels": "h",
+        "name": "Harmonics",
+        "desc": [
+            "The high eerie sounds produced on a string instrument by lightly touching the string at certain points. Harmonics can be played on any instrument with strings for example,",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            ",",
+            [
+                "link",
+                "/c/guitar",
+                "guitar"
+            ],
+            "and",
+            [
+                "link",
+                "/c/harp",
+                "harp"
+            ],
+            ".\nThis is an example of harmonics played on a string instrument.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonics1.mp3"
+            ]
+        ],
+        "id": "harmonics"
+    },
+    "impressionism": {
+        "levels": "h",
+        "name": "Impressionist",
+        "desc": [
+            "A 20th century style where brief musical ideas merge and change to create a rather blurred and vague outline.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/impressionist1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/whole-tone-scale",
+                "whole tone scale"
+            ]
+        ],
+        "id": "impressionist"
+    },
+    "interrupted-cadence": {
+        "levels": "h",
+        "name": "Interrupted cadence",
+        "rel": [],
+        "desc": [
+            "Chords V \u2013 VI at the end of a phrase. In a major key, chord VI is minor.\nIt sounds unfinished.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad1_int1.mp3"
+            ],
+            [
+                "link",
+                "/c/perfect-cadence",
+                "Perfect cadence"
+            ],
+            [
+                "link",
+                "/c/plagal-cadence",
+                "Plagal cadence"
+            ],
+            [
+                "link",
+                "/c/imperfect-cadence",
+                "Imperfect cadence"
+            ]
+        ],
+        "id": "interrupted-cadence"
+    },
+    "interval": {
+        "levels": "h",
+        "name": "Interval",
+        "desc": [
+            "The distance between 2 notes.\nRelated Concept",
+            [
+                "link",
+                "/c/ripieno",
+                "Octave"
+            ]
+        ],
+        "id": "interval"
+    },
+    "irregular-time-signatures": {
+        "levels": "h",
+        "name": "Irregular time signatures",
+        "desc": [
+            "The time signatures change or there are an unusual number of beats in a bar.\nThis example begins with7 beats in a bar.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/irregularmetres2.mp3"
+            ],
+            "In this example thetime signatures change.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/irregularmetres3.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/time-changeschanges",
+                "Time changes"
+            ]
+        ],
+        "id": "irregular-time-signatures"
+    },
+    "jazz-funk": {
+        "levels": "h",
+        "name": "Jazz funk",
+        "desc": [
+            "A combination of jazz improvisation and the amplified instruments and character of rock.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/jazzfunk1.mp3"
+            ]
+        ],
+        "id": "jazz-funk"
+    },
+    "lied": {
+        "levels": "h",
+        "name": "Lied",
+        "desc": [
+            "A German song from the",
+            [
+                "link",
+                "/c/romantic",
+                "Romantic"
+            ],
+            "period for voice and piano in which both parts are important.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/lied3.mp3"
+            ]
+        ],
+        "id": "lied"
+    },
+    "mass": {
+        "levels": "h",
+        "name": "Mass",
+        "desc": [
+            "A large scale, sacred work sung in Latin for solo singers, chorus and orchestra. The five main sections are Kyrie, Gloria, Credo, Sanctus, Agnus Dei.\nThis is the start of the Kyrie from Beethoven\u2019s Mass in C.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/mass1.mp3"
+            ],
+            "This is the start of theGloriafrom Beethoven\u2019s Mass in C.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/mass2.mp3"
+            ]
+        ],
+        "id": "mass"
+    },
+    "melodic-minor-scale": {
+        "levels": "h",
+        "name": "Melodic minor scale",
+        "desc": [
+            "\u2013 for example,\nC D Eb F G A B C\nC Bb Ab G F Eb D C",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/melodicminor1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/harmonic-minor-scale",
+                "Harmonic minor scale"
+            ]
+        ],
+        "id": "melodic-minor-scale"
+    },
+    "mode-modal": {
+        "levels": "h",
+        "name": "Mode / Modal",
+        "desc": [
+            "Usually this refers to any of the early scales e.g. Dorian mode (white notes D to D on a keyboard).",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/modal2.mp3"
+            ]
+        ],
+        "id": "mode-modal"
+    },
+    "mordent": {
+        "levels": "h",
+        "name": "Mordent",
+        "desc": [
+            "An",
+            [
+                "link",
+                "/c/ornament",
+                "ornament"
+            ],
+            "consisting of the main note, the note above, the main note.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/mordent5.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/acciaccatura",
+                "Acciaccatura"
+            ]
+        ],
+        "id": "mordent"
+    },
+    "musique-concrete": {
+        "levels": "h",
+        "name": "Musique concr\u00e8te",
+        "desc": [
+            "20th century style of composition using pre-recorded live sounds, for example, a creaking door. These sounds are then edited by simple editing techniques such as cutting and re-assembling, playing backwards, slowing down and speeding up.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/musiqueconcrete4.mp3"
+            ]
+        ],
+        "id": "musique-concrete"
+    },
+    "obbligato": {
+        "levels": "h",
+        "name": "Obbligato",
+        "desc": [
+            "A prominent solo instrument part in a piece of vocal music.\nIn this example a trumpet is playing the obbligato.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/obbligato1.mp3"
+            ]
+        ],
+        "id": "obbligato"
+    },
+    "oratorio": {
+        "levels": "h",
+        "name": "Oratorio",
+        "desc": [
+            "An oratorio is alarge scale work without acting or stagedesign. It is usually basedon astory from the Bible set to music for solo singers,",
+            [
+                "link",
+                "/c/chorus",
+                "chorus"
+            ],
+            "and",
+            [
+                "link",
+                "/c/orchestra",
+                "orchestra"
+            ],
+            ". Oratorios often include",
+            [
+                "link",
+                "/c/recitative",
+                "recitatives"
+            ],
+            ",",
+            [
+                "link",
+                "/c/aria",
+                "arias"
+            ],
+            "and",
+            [
+                "link",
+                "/c/chorus",
+                "choruses"
+            ],
+            ". \nThis is an example of a",
+            [
+                "link",
+                "/c/recitative",
+                "recitative"
+            ],
+            "from \u2018The Messiah\u2019 by Handel.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/recitative3.mp3"
+            ],
+            "This is an example of an",
+            [
+                "link",
+                "/c/aria",
+                "aria"
+            ],
+            "from \u2018The Messiah\u2019 by Handel.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/aria1.mp3"
+            ],
+            "This is an example of a",
+            [
+                "link",
+                "/c/chorus",
+                "chorus"
+            ],
+            "from \u2018The Messiah\u2019 by Handel.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chorus1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/da-capo-aria",
+                "Da capo aria"
+            ]
+        ],
+        "id": "oratorio"
+    },
+    "passacaglia": {
+        "levels": "h",
+        "name": "Passacaglia",
+        "desc": [
+            "Variations over a",
+            [
+                "link",
+                "/c/ground-bass",
+                "ground bass"
+            ],
+            ".\nIn this example the ground bass is heard 4 times.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/passacaglia1.mp3"
+            ]
+        ],
+        "id": "passacaglia"
+    },
+    "plagal-cadence": {
+        "levels": "h",
+        "name": "Plagal cadence",
+        "rel": [],
+        "desc": [
+            "Chords IV to I at the end of a phrase.\nIt sounds finished.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/cad1_pla1.mp3"
+            ],
+            [
+                "link",
+                "/c/perfect-cadence",
+                "Perfect cadence"
+            ],
+            [
+                "link",
+                "/c/imperfect-cadence",
+                "Imperfect cadence"
+            ],
+            [
+                "link",
+                "/c/interrupted-cadence",
+                "Interrupted cadence"
+            ]
+        ],
+        "id": "plagal-cadence"
+    },
+    "plainchant": {
+        "levels": "h",
+        "name": "Plainchant",
+        "desc": [
+            "Unaccompanied melody set to the Latin words of the Roman Catholic liturgy.",
+            [
+                "link",
+                "/c/mode-modal",
+                "Modal"
+            ],
+            "with no regular metre.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/plainchant2.mp3"
+            ]
+        ],
+        "id": "plainchant"
+    },
+    "recitative": {
+        "levels": "h",
+        "name": "Recitative",
+        "desc": [
+            "A type of vocal writing where the music follows the rhythm of speech. A recitative is often followed by an",
+            [
+                "link",
+                "/c/aria",
+                "aria"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassocontinuo1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/da-capo-aria",
+                "da capo aria"
+            ]
+        ],
+        "id": "recitative"
+    },
+    "relative-major": {
+        "levels": "h",
+        "name": "Relative major",
+        "desc": [
+            "The major key with the same key signature as one minor key.\nIn this example the music begins in a minor key and",
+            [
+                "link",
+                "/c/modulation",
+                "modulates"
+            ],
+            "to the relative major.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/modtorelmaj1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/relative-minor",
+                "Relative minor"
+            ]
+        ],
+        "id": "relative-major"
+    },
+    "relative-minor": {
+        "levels": "h",
+        "name": "Relative minor",
+        "desc": [
+            "The minor key with the same key signature as one major key.\nIn this example the music begins in a majorkey and",
+            [
+                "link",
+                "/c/modulation",
+                "modulates"
+            ],
+            "to the relative minor.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/modtorelmin1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/relative-major",
+                "Relative major"
+            ]
+        ],
+        "id": "relative-minor"
+    },
+    "ripieno": {
+        "levels": "h",
+        "name": "Ripieno",
+        "desc": [
+            "The main group of ensemble instrumentsin a",
+            [
+                "link",
+                "/c/concerto-grosso",
+                "concerto grosso"
+            ],
+            ".\nRelated Concept",
+            [
+                "link",
+                "/c/concertino",
+                "concertino"
+            ]
+        ],
+        "id": "ripieno"
+    },
+    "ritornello": {
+        "levels": "h",
+        "name": "Ritornello",
+        "desc": [
+            "Ritornello means a theme which returns frequently throughout a piece. \nIn a",
+            [
+                "link",
+                "/c/concerto-grosso",
+                "concerto grosso"
+            ],
+            ", the ritornello is the main, recurring theme played by the",
+            [
+                "link",
+                "/c/ripieno",
+                "ripieno"
+            ],
+            ". The ritornello may return frequently throughout the movement."
+        ],
+        "id": "ritornello"
+    },
+    "sonata": {
+        "levels": "h",
+        "name": "Sonata",
+        "desc": [
+            "A work for solo piano, or solo instrument and piano, often in three or four movements.\nHere is in example of a violin sonata, that is, violin and piano.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sonata1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/sonata-form",
+                "sonata form"
+            ]
+        ],
+        "id": "sonata"
+    },
+    "sonata-form": {
+        "levels": "h",
+        "name": "Sonata form",
+        "desc": [
+            "A form used for the first movement of a",
+            [
+                "link",
+                "/c/sonata",
+                "sonata"
+            ],
+            "or",
+            [
+                "link",
+                "/c/symphony",
+                "symphony"
+            ],
+            ".\nIt consists of three sections:"
+        ],
+        "id": "sonata-form"
+    },
+    "soul": {
+        "levels": "h",
+        "name": "Soul music",
+        "desc": [
+            "A style of Afro-American popular music including elements of",
+            [
+                "link",
+                "/c/blues",
+                "blues"
+            ],
+            "and",
+            [
+                "link",
+                "/c/gospel",
+                "gospel"
+            ],
+            "and conveying strong emotions.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/soul1.mp3"
+            ]
+        ],
+        "id": "soul-music"
+    },
+    "string-quartet": {
+        "levels": "h",
+        "name": "String quartet",
+        "desc": [
+            "Two",
+            [
+                "link",
+                "/c/violin",
+                "violins"
+            ],
+            ", a",
+            [
+                "link",
+                "/c/viola",
+                "viola"
+            ],
+            "and a",
+            [
+                "link",
+                "/c/cello",
+                "cello"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/stringquartet3.mp3"
+            ]
+        ],
+        "id": "string-quartet"
+    },
+    "subject": {
+        "levels": [
+            "h",
+            "ah"
+        ],
+        "name": "Subject",
+        "desc": [
+            "The main theme in a composition, the main themes in",
+            [
+                "link",
+                "/c/sonata-form",
+                "sonata form"
+            ],
+            ", or the main theme on which a",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            "is based."
+        ],
+        "id": "subject"
+    },
+    "through-composed": {
+        "levels": "h",
+        "name": "Through-composed",
+        "desc": [
+            "A vocal piece in which there is little or no repetition of the music.\nRelated Concept",
+            [
+                "link",
+                "/c/strophic",
+                "Strophic"
+            ]
+        ],
+        "id": "through-composed"
+    },
+    "tierce-de-picardie": {
+        "levels": "h",
+        "name": "Tierce de Picardie",
+        "desc": [
+            "The final chord of a piece in a minor key is changed to major.\nThis is an example of a tierce de Picardie.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tdp_yes_AOW_p162_10.mp3"
+            ],
+            "The is the same example with no tierce de Picardie. The excerpt ends in the minor key on chord I.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tdp_no_2_AOW_p162_10.mp3"
+            ]
+        ],
+        "id": "tierce-de-picardie"
+    },
+    "time-changes": {
+        "levels": "h",
+        "name": "Time changes",
+        "desc": [
+            "Groupings of notes change, but the underlying pulse remains constant.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/irregularmetres3.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/irregular-time-signatures",
+                "Irregular time signatures"
+            ]
+        ],
+        "id": "time-changes"
+    },
+    "tremolando": {
+        "levels": "h",
+        "name": "Tremolando",
+        "desc": [
+            "Literally \u2018trembling\u2019. Rapid repetition of a note (",
+            [
+                "link",
+                "/c/strings",
+                "string"
+            ],
+            "instrument) or rapid alternation of two notes (any instrument).\nHere is a",
+            [
+                "link",
+                "/c/violin",
+                "violin"
+            ],
+            "playing tremolando.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/tremolo1.mp3"
+            ]
+        ],
+        "id": "tremolando"
+    },
+    "triplets": {
+        "levels": "h",
+        "name": "Triplets",
+        "desc": [
+            "A triplet is a group of three notes played in the time of two.\nHere are two examples:",
+            [
+                "table",
+                [
+                    [
+                        "Sign",
+                        "Name",
+                        "Total length"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/triplet_quavers_1.png"
+                        ],
+                        "Triplet quavers",
+                        "3 triplet quavers =2 quavers = 1 beat"
+                    ],
+                    [
+                        [
+                            "image",
+                            "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/triplet_crotchets_1.png"
+                        ],
+                        "Triplet crotchets",
+                        "3 triplet crotchets = 2 crotchets = 2 beats"
+                    ]
+                ]
+            ]
+        ],
+        "id": "triplets"
+    },
+    "answer": {
+        "levels": "ah",
+        "name": "Answer",
+        "rel": [],
+        "desc": [
+            "In a",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            ", after the subject is played, the same tune appears in another voice or part in the dominant (a 5th higher or a 4th lower). This is called the answer.",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            "",
+            [
+                "link",
+                "/c/subject",
+                "subject"
+            ],
+            "",
+            [
+                "link",
+                "/c/countersubject",
+                "countersubject"
+            ],
+            "",
+            [
+                "link",
+                "/c/stretto",
+                "stretto"
+            ]
+        ],
+        "id": "answer"
+    },
+    "anthem": {
+        "levels": "ah",
+        "name": "Anthem",
+        "desc": [
+            "Short sacred choral piece sung in English. Sometimes sung by a choir unaccompanied and sometimes accompanied by organ, featuring solo parts."
+        ],
+        "id": "anthem"
+    },
+    "antiphonal": {
+        "levels": "ah",
+        "name": "Antiphonal",
+        "desc": [
+            "Dialogue between voices or instruments \u2013 one group of voices or instruments answers the other."
+        ],
+        "id": "antiphonal"
+    },
+    "appoggiatura": {
+        "levels": "ah",
+        "name": "Appoggiatura",
+        "desc": [
+            "An ornament which sounds like a leaning note, takes half the value of the main note which follows it or two-thirds if the main note is dotted.\nRelated Concept",
+            [
+                "link",
+                "/c/turn",
+                "turn"
+            ]
+        ],
+        "id": "appoggiatura"
+    },
+    "augmented-triad": {
+        "levels": "ah",
+        "name": "Augmented triad",
+        "desc": [
+            "This chord is formed by a major triad in which the 5th degree is raised by a semitone."
+        ],
+        "id": "augmented-triad"
+    },
+    "ayreair": {
+        "levels": "ah",
+        "name": "Ayre/air",
+        "desc": [
+            "Song or simple melody, sometimes the title of a movement of a suite."
+        ],
+        "id": "ayre-air"
+    },
+    "ballett": {
+        "levels": "ah",
+        "name": "Ballett",
+        "desc": [
+            "A type of madrigal in strophic form which was originally danced to. There is a fa-la-la refrain.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/ballett1.mp3"
+            ]
+        ],
+        "id": "ballett"
+    },
+    "bridge": {
+        "levels": "ah",
+        "name": "Bridge",
+        "desc": [
+            "A link between two themes."
+        ],
+        "id": "bridge"
+    },
+    "chorale": {
+        "levels": "ah",
+        "name": "Chorale",
+        "desc": [
+            "A German hymn tune, written in four parts for soprano, alto, tenor and bass.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/chorale1.mp3"
+            ]
+        ],
+        "id": "chorale"
+    },
+    "chord-ii-and-1st-inversion-major-key-only": {
+        "levels": "ah",
+        "name": "Chord II and 1st inversion (major key only)",
+        "desc": [
+            "In a major key, chord IItends to be a minor chord."
+        ],
+        "id": "chord-ii-and-1st-inversion-major-key-only"
+    },
+    "chords-i-iv-v-and-vi-in-major-and-minor-keys": {
+        "levels": "ah",
+        "name": "Chords I, IV, V and VI in major and minor keys",
+        "desc": [
+            "In a major key, it is normal for chords I, IV and V to be major chords. Chord VI is normally a minor chord."
+        ],
+        "id": "chords-i-iv-v-and-vi-in-major-and-minor-keys"
+    },
+    "consort": {
+        "levels": "ah",
+        "name": "Consort",
+        "desc": [
+            "Like most music of the Rennaissance period if not actually a dance, like a pavane or galliard, was certainly dance like in style. \nThe music could be played by solo instruments such a lutes, harpsichords or virginals, by small groups of instruments of the same family or a group of varied instruments from different families. In England, a consort was the name given to a group of instruments of the same family playing together.\nIt was also a common practice to perform music with a \u2018broken consort\u2019, a collection of different instruments which blended together. This was really the forerunner of the Baroque orchestra which developed during the 17th century.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/consort1.mp3"
+            ],
+            "Related Concept",
+            [
+                "link",
+                "/c/renaissance",
+                "Renaissance"
+            ]
+        ],
+        "id": "consort"
+    },
+    "contemporary-jazz": {
+        "levels": "ah",
+        "name": "Contemporary jazz",
+        "desc": [
+            "Contemporary jazz is an umbrella term for all kinds of jazz music being played now \u2013 as well as jazz music of the 80s, 90s, 00s & 10s \u2013 which can feature some or all of the following:"
+        ],
+        "id": "contemporary-jazz"
+    },
+    "countersubject": {
+        "levels": "ah",
+        "name": "Countersubject",
+        "rel": [],
+        "desc": [
+            "In a",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            ", after the subject or answer is played, the continuation of that same instrument or voice is called the countersubject.",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            "",
+            [
+                "link",
+                "/c/subject",
+                "subject"
+            ],
+            "",
+            [
+                "link",
+                "/c/answer",
+                "answer"
+            ],
+            "",
+            [
+                "link",
+                "/c/stretto",
+                "stretto"
+            ]
+        ],
+        "id": "countersubject"
+    },
+    "countertenor": {
+        "levels": "ah",
+        "name": "Countertenor",
+        "desc": [
+            "A male adult voice whose range is higher than a tenor\u2019s. The strong and pure tone is produced by resonances mainly in the head. This type of voice was very popular until the end of the 18th century.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/countertenor1.mp3"
+            ]
+        ],
+        "id": "countertenor"
+    },
+    "dal-segno": {
+        "levels": "ah",
+        "name": "Dal segno",
+        "desc": [
+            "Dal segno means repeat from the sign ?. It is often abbreviated to D.S.",
+            [
+                "link",
+                "/c/advanced-higher",
+                "Back to Advanced Higher.Music."
+            ]
+        ],
+        "id": "dal-segno"
+    },
+    "electronic-dance-music": {
+        "levels": "ah",
+        "name": "Electronic dance music / EDM",
+        "desc": [
+            "Electronic dance music is normally heard in clubs where the DJ combines tracks electronically into one smooth mix. It can encompass music of different genres including house music, dubstep, drum and bass."
+        ],
+        "id": "electronic-dance-music-edm"
+    },
+    "fine": {
+        "levels": "ah",
+        "name": "Fine",
+        "desc": [
+            "Fine means the end of a piece. It is often used following a repeat instruction such as",
+            [
+                "link",
+                "/c/da-capo",
+                "D.C."
+            ],
+            ". or",
+            [
+                "link",
+                "/c/dal-segno",
+                "D.S."
+            ],
+            [
+                "link",
+                "/c/advanced-higher",
+                "Back to Advanced Higher"
+            ],
+            "."
+        ],
+        "id": "fine"
+    },
+    "fugue": {
+        "levels": "ah",
+        "name": "Fugue",
+        "rel": [],
+        "desc": [
+            "A",
+            [
+                "link",
+                "/c/contrapuntal",
+                "contrapuntal"
+            ],
+            "piece based on a theme (subject) announced in one voice part alone, then imitated by other voices in close succession.",
+            [
+                "link",
+                "/c/subject",
+                "subject"
+            ],
+            "",
+            [
+                "link",
+                "/c/answer",
+                "answer"
+            ],
+            "",
+            [
+                "link",
+                "/c/countersubject",
+                "countersubject"
+            ],
+            "",
+            [
+                "link",
+                "/c/stretto",
+                "stretto"
+            ]
+        ],
+        "id": "fugue"
+    },
+    "galliard": {
+        "levels": "ah",
+        "name": "Galliard",
+        "desc": [
+            "A Renaissance court dance with 3 beats in the bar. It oftenfollows a",
+            [
+                "link",
+                "/c/pavan",
+                "pavan"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/galliard1.mp3"
+            ]
+        ],
+        "id": "galliard"
+    },
+    "hemiola": {
+        "levels": "ah",
+        "name": "Hemiola",
+        "desc": [
+            "A rhythmic device giving the impression of a piece of music changing from duple (2) to triple (3) time, or vice versa.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/hemiola1.mp3"
+            ]
+        ],
+        "id": "hemiola"
+    },
+    "inversion": {
+        "levels": "ah",
+        "name": "Inversion",
+        "desc": [
+            "When a musical shape is mirrored; an inverted chord is formed when a note other than the root is in the bass."
+        ],
+        "id": "inversion"
+    },
+    "leitmotiv": {
+        "levels": "ah",
+        "name": "Leitmotiv",
+        "desc": [
+            "A theme occurring throughout a work which represents a person, an event or an idea, etc."
+        ],
+        "id": "leitmotiv"
+    },
+    "madrigal": {
+        "levels": "ah",
+        "name": "Madrigal",
+        "desc": [
+            "A Renaissance, non-religious work, polyphonic in style, using imitation.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/madrigal3.mp3"
+            ]
+        ],
+        "id": "madrigal"
+    },
+    "motet": {
+        "levels": "ah",
+        "name": "Motet",
+        "desc": [
+            "A sacred choral work with Latin text and polyphonic texture, usually sung",
+            [
+                "link",
+                "/c/a-cappella",
+                "a cappella"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/motet1.mp3"
+            ]
+        ],
+        "id": "motet"
+    },
+    "nationalist": {
+        "levels": "ah",
+        "name": "Nationalist",
+        "desc": [
+            "Music which incorporates elements of folk music of the composer\u2019s country."
+        ],
+        "id": "nationalist"
+    },
+    "neo-classical": {
+        "levels": "ah",
+        "name": "Neo-Classical",
+        "desc": [
+            "From about 1929, composers reacted against Romanticism returning to the structures and styles of earlier periods, combined with dissonant, tonal and even",
+            [
+                "link",
+                "/c/atonal",
+                "atonal"
+            ],
+            "harmonies.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/neoclassical2.mp3"
+            ]
+        ],
+        "id": "neo-classical"
+    },
+    "pavan": {
+        "levels": "ah",
+        "name": "Pavan",
+        "desc": [
+            "A Renaissance court dance with 2 beats in the bar. It is often followed bya",
+            [
+                "link",
+                "/c/galliard",
+                "galliard"
+            ],
+            ".",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/pavan1.mp3"
+            ]
+        ],
+        "id": "pavan"
+    },
+    "piano-trio": {
+        "levels": "ah",
+        "name": "Piano trio",
+        "desc": [
+            "A piano trio is a",
+            [
+                "link",
+                "/c/chamber-music",
+                "chamber music"
+            ],
+            "ensemble comprising of three instruments; the most common form comprises of a piano, violin and cello."
+        ],
+        "id": "piano-trio"
+    },
+    "polytonalitybitonality": {
+        "levels": "ah",
+        "name": "Polytonality/bitonality",
+        "desc": [
+            "The use of two (bitonality) or more keys (polytonality) played or sung at the same time."
+        ],
+        "id": "polytonality-bitonality"
+    },
+    "renaissance": {
+        "levels": "ah",
+        "name": "Renaissance",
+        "desc": [
+            "Renaissance means \u2018rebirth\u2019 and marks a period in history where there was a resurgence of interest in music based on the ideas of the ancient Greeks and Romans."
+        ],
+        "id": "renaissance"
+    },
+    "retrograde": {
+        "levels": "ah",
+        "name": "Retrograde",
+        "desc": [
+            "To go backwards; a melody or a section of music can be written or performed from the end to the beginning."
+        ],
+        "id": "retrograde"
+    },
+    "serial": {
+        "levels": "ah",
+        "name": "Serial",
+        "desc": [
+            "A 20th-century method of musical composition invented by Schoenberg in which the 12 notes of the chromatic scale are organised into a series or",
+            [
+                "link",
+                "/c/tone-rownote-row",
+                "tone row/note row"
+            ],
+            "."
+        ],
+        "id": "serial"
+    },
+    "song-cycle": {
+        "levels": "ah",
+        "name": "Song cycle",
+        "desc": [
+            "A group of songs linked by a common theme or with a text written by the same author, usually accompanied by piano but sometimes by small ensembles or full orchestra."
+        ],
+        "id": "song-cycle"
+    },
+    "sprechgesang": {
+        "levels": "ah",
+        "name": "Sprechgesang",
+        "desc": [
+            "A 20th century technique used in vocal music where the singer is required to use the voice in an expressive manner half-way between singing and speaking.",
+            [
+                "audio",
+                "https://mymusiconline.co.uk/wp-content/uploads/mp3/sprechgesang1.mp3"
+            ]
+        ],
+        "id": "sprechgesang"
+    },
+    "stretto": {
+        "levels": "ah",
+        "name": "Stretto",
+        "rel": [],
+        "desc": [
+            "Where voices or instruments enter very quickly one after the other, as in fugue.",
+            [
+                "link",
+                "/c/fugue",
+                "fugue"
+            ],
+            "",
+            [
+                "link",
+                "/c/subject",
+                "subject"
+            ],
+            "",
+            [
+                "link",
+                "/c/answer",
+                "answer"
+            ],
+            "",
+            [
+                "link",
+                "/c/countersubject",
+                "countersubject"
+            ]
+        ],
+        "id": "stretto"
+    },
+    "suspension": {
+        "levels": "ah",
+        "name": "Suspension",
+        "desc": [
+            "This effect occurs when a note from one chord is held over to the next chord creating a",
+            [
+                "link",
+                "/c/discord",
+                "discord"
+            ],
+            ", and is then resolved by moving one step to make a concord.\nIn this example there is a suspension in the red boxed area in the second bar. The F note in the treble clef part is held over from the previous chord creating a discord on the 3rd beat. It resolves by moving down one step to an E note on the final beat.\nHere is the same music without a suspension in the red boxed area in the second bar."
+        ],
+        "id": "suspension"
+    },
+    "tone-rownote-row": {
+        "levels": "ah",
+        "name": "Tone row/note row",
+        "desc": [
+            "An arrangement of the 12 notes of the octave which forms the basis of a",
+            [
+                "link",
+                "/c/serial",
+                "serial"
+            ],
+            "composition."
+        ],
+        "id": "tone-row-note-row"
+    },
+    "tritone": {
+        "levels": "ah",
+        "name": "Tritone",
+        "desc": [
+            "Interval of an augmented 4th, eg C\u2013F sharp or F\u2013B. It is made up of three whole tones."
+        ],
+        "id": "tritone"
+    },
+    "turn": {
+        "levels": "ah",
+        "name": "Turn",
+        "desc": [
+            "Four notes which turn round the main note with the note above, the main note, the note below, and the main note again.\nRelated Concept",
+            [
+                "link",
+                "/c/appoggiatura",
+                "appoggiatura"
+            ]
+        ],
+        "id": "turn"
+    }
+}
