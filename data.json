@@ -594,7 +594,7 @@
                 "table",
                 [
                     [
-                        "Sign      ",
+                        "Sign",
                         "Name",
                         "Note length"
                     ],
@@ -685,7 +685,7 @@
             "off-the-beat"
         ],
         "desc": [
-            "In this excerpt, the claps are on beats 1 and 3whichare the stronger beats. So, we can say that the claps are on the beat.",
+            "In this excerpt, the claps are on beats 1 and 3 which are the stronger beats. So, we can say that the claps are on the beat.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/onthebeat1.mp3"
@@ -709,7 +709,7 @@
         "levels": "n3",
         "name": "Organ",
         "desc": [
-            "A keyboard instrument usually found in churches. It often has more than one keyboard, anda pedal keyboard that isplayed with the feet.",
+            "A keyboard instrument usually found in churches. It often has more than one keyboard, and a pedal keyboard that is played with the feet.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/pipeorgan1.mp3"
@@ -1125,7 +1125,7 @@
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/strings4.mp3"
             ],
-            "In this example the strings are plucked(the Italian term is",
+            "In this example the strings are plucked (the Italian term is",
             [
                 "link",
                 "/c/pizzicato",
@@ -1158,7 +1158,7 @@
             "accompanied"
         ],
         "desc": [
-            "No other instrument(s)are playing.\nIn this excerpt, the singers are unaccompanied.",
+            "No other instrument(s) are playing.\nIn this excerpt, the singers are unaccompanied.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/harmonyvoicesunacc1.mp3"
@@ -1173,7 +1173,7 @@
             "harmony"
         ],
         "desc": [
-            "Two players or singers sounding the same notes at the same time.\nIn this excerpt, the womenare singing in unison.",
+            "Two players or singers sounding the same notes at the same time.\nIn this excerpt, the women are singing in unison.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/unison1.mp3"
@@ -1488,7 +1488,7 @@
         "levels": "n4",
         "name": "Canon",
         "desc": [
-            "Each part has the same melody entering one after the other. Canon isthe same as",
+            "Each part has the same melody entering one after the other. Canon is the same as",
             [
                 "link",
                 "/c/round",
@@ -1512,7 +1512,7 @@
                 "/c/strings",
                 "string"
             ],
-            "instrument which is larger than a violin and smallerthan a double bass.",
+            "instrument which is larger than a violin and smaller than a double bass.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/cello1.mp3"
@@ -1905,7 +1905,7 @@
                 "image",
                 "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/mute_violin_1.png"
             ],
-            "Thisis an example of a muted violin.",
+            "This is an example of a muted violin.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/consordino3.mp3"
@@ -1921,7 +1921,7 @@
                 "table",
                 [
                     [
-                        "Sign      ",
+                        "Sign",
                         "Name",
                         "Note length"
                     ],
@@ -2004,7 +2004,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_2.png"
                         ],
                         "Semiquaver",
-                        "\u00bcbeat"
+                        "\u00bc beat"
                     ],
                     [
                         [
@@ -2016,7 +2016,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquavers_grouped_2.png"
                         ],
                         "4 x Semiquavers",
-                        "\u00bcbeat + \u00bc beat + \u00bc beat + \u00bc beat = 1 beat"
+                        "\u00bc beat + \u00bc beat + \u00bc beat + \u00bc beat = 1 beat"
                     ]
                 ]
             ]
@@ -2478,7 +2478,7 @@
                 "/c/tuned-percussion",
                 "Tuned percussion"
             ],
-            ". A timpani is alarge copper coloured drum. The pitches of each drum can be changed, either by hand or by a pedal.\nThis example is played by 4 timpani.",
+            ". A timpani is a large copper coloured drum. The pitches of each drum can be changed, either by hand or by a pedal.\nThis example is played by 4 timpani.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/timpani1.mp3"
@@ -2673,7 +2673,7 @@
             [
                 "link",
                 "/c/68-2",
-                "6\n"
+                "6"
             ],
             "",
             [
@@ -2681,11 +2681,11 @@
                 "/c/68-2",
                 "8"
             ],
-            "",
+            " ",
             [
                 "link",
                 "/c/98-2",
-                "9\n"
+                "9"
             ],
             "",
             [
@@ -2736,7 +2736,7 @@
         "levels": "n5",
         "name": "A cappella",
         "desc": [
-            "Unaccompaniedsinging.",
+            "Unaccompanied singing.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/acappella2.mp3"
@@ -2803,7 +2803,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/sharp.png"
                         ],
                         "Sharp",
-                        "Raises a note by onesemitone"
+                        "Raises a note by one semitone"
                     ],
                     [
                         [
@@ -2851,7 +2851,7 @@
             "pizzicato"
         ],
         "desc": [
-            "Usingthe bow on a",
+            "Using the bow on a",
             [
                 "link",
                 "/c/strings",
@@ -3038,12 +3038,12 @@
         "levels": "n5",
         "name": "Chorus",
         "desc": [
-            "Chorus has different meanings. It can mean\n1. A group of singers.\n2. Music written for thesesingers\nThis example, \u2018The Hallelujah Chorus\u2019, is written for a group of singers.",
+            "Chorus has different meanings. It can mean \n1. A group of singers.\n2. Music written for these singers\nThis example, \u2018The Hallelujah Chorus\u2019, is written for a group of singers.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/chorus1.mp3"
             ],
-            "3. The refrain betweenverses of a song (seeverse and chorus)"
+            "3. The refrain between verses of a song (see verse and chorus)"
         ],
         "id": "chorus"
     },
@@ -3161,7 +3161,7 @@
                 "image",
                 "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/mute_violin_1.png"
             ],
-            "Thisis an example of a muted violin.",
+            "This is an example of a muted violin.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/consordino3.mp3"
@@ -3235,7 +3235,7 @@
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/descant2without.mp3"
             ],
-            "This excerpt starts the same, then a descant is heardabove the original melody.",
+            "This excerpt starts the same, then a descant is heard above the original melody.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/descant2.mp3"
@@ -3436,7 +3436,7 @@
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/homophony3.mp3"
             ],
-            "Inthis example, all the parts play a similar rhythm at the same time."
+            "In this example, all the parts play a similar rhythm at the same time."
         ],
         "id": "homophonic"
     },
@@ -3629,7 +3629,7 @@
                 "table",
                 [
                     [
-                        "Sign      ",
+                        "Sign",
                         "Name",
                         "Note length"
                     ],
@@ -3688,7 +3688,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/crotchet_2.png"
                         ],
                         "Crotchet",
-                        "1beat"
+                        "1 beat"
                     ],
                     [
                         [
@@ -3736,7 +3736,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/semiquaver_2.png"
                         ],
                         "Semiquaver",
-                        "\u00bcbeat"
+                        "\u00bc beat"
                     ],
                     [
                         [
@@ -3764,7 +3764,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/dotted_crotchet_quaver_2.png"
                         ],
                         "Dotted crotchet + quaver",
-                        "1\u00bd beats + \u00bd beat = 2beats"
+                        "1\u00bd beats + \u00bd beat = 2 beats"
                     ],
                     [
                         [
@@ -3788,7 +3788,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/scotch_snap_2.png"
                         ],
                         "Scotch snap",
-                        "\u00bcbeat + \u00be beat = 1 beat"
+                        "\u00bc beat + \u00be beat = 1 beat"
                     ]
                 ]
             ]
@@ -3916,7 +3916,7 @@
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato4.mp3"
             ],
-            "This is an example of a string ensembleplaying pizzicato.",
+            "This is an example of a string ensemble playing pizzicato.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/pizzicato2.mp3"
@@ -3950,7 +3950,7 @@
         "levels": "n5",
         "name": "Reverb",
         "desc": [
-            "An electronic effect which can give the impression of different hall acoustics.For example, reverb can make a piece of musicsoundas if the performance is taking place in a cathedral.",
+            "An electronic effect which can give the impression of different hall acoustics. For example, reverb can make a piece of music sound as if the performance is taking place in a cathedral.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/reverb1.mp3"
@@ -4137,7 +4137,7 @@
                 "/c/clarinet",
                 "clarinet"
             ],
-            "has fourtrills.",
+            "has four trills.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/trill2.mp3"
@@ -4236,7 +4236,7 @@
         "levels": "h",
         "name": "3 against 2",
         "desc": [
-            "The effect of three notes played against two.\nIn this example the bass subdivides the beat into 2 while the melodysubdivides the beat into 3.",
+            "The effect of three notes played against two.\nIn this example the bass subdivides the beat into 2 while the melody subdivides the beat into 3.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/threeagainstt1.mp3"
@@ -4255,7 +4255,7 @@
             [
                 "link",
                 "/c/ornament",
-                "ornament "
+                "ornament"
             ],
             "which sounds like a crushed note played very quickly on the beat or just before it.",
             [
@@ -4318,7 +4318,7 @@
                 "/c/harpsichord",
                 "harpsichord"
             ],
-            ") filling in the harmonies The basso continuo supports one or moremelody lines.\nThis example features a solo flute and basso continuo (cello and harpsichord).",
+            ") filling in the harmonies The basso continuo supports one or more melody lines.\nThis example features a solo flute and basso continuo (cello and harpsichord).",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/bassocontinuo2.mp3"
@@ -4622,12 +4622,12 @@
             "time-changeschanges"
         ],
         "desc": [
-            "The time signatures change or there are an unusual number of beats in a bar.\nThis example begins with7 beats in a bar.",
+            "The time signatures change or there are an unusual number of beats in a bar.\nThis example begins with 7 beats in a bar.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/irregularmetres2.mp3"
             ],
-            "In this example thetime signatures change.",
+            "In this example the time signatures change.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/irregularmetres3.mp3"
@@ -4675,7 +4675,7 @@
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/mass1.mp3"
             ],
-            "This is the start of theGloriafrom Beethoven\u2019s Mass in C.",
+            "This is the start of the Gloria from Beethoven\u2019s Mass in C.",
             [
                 "audio",
                 "https://mymusiconline.co.uk/wp-content/uploads/mp3/mass2.mp3"
@@ -4762,7 +4762,7 @@
             "da-capo-aria"
         ],
         "desc": [
-            "An oratorio is alarge scale work without acting or stagedesign. It is usually basedon astory from the Bible set to music for solo singers,",
+            "An oratorio is a large scale work without acting or stage design. It is usually based on a story from the Bible set to music for solo singers,",
             [
                 "link",
                 "/c/chorus",
@@ -4930,7 +4930,7 @@
             "relative-major"
         ],
         "desc": [
-            "The minor key with the same key signature as one major key.\nIn this example the music begins in a majorkey and",
+            "The minor key with the same key signature as one major key.\nIn this example the music begins in a major key and",
             [
                 "link",
                 "/c/modulation",
@@ -4951,7 +4951,7 @@
             "concertino"
         ],
         "desc": [
-            "The main group of ensemble instrumentsin a",
+            "The main group of ensemble instruments in a",
             [
                 "link",
                 "/c/concerto-grosso",
@@ -5189,7 +5189,7 @@
                             "https://mymusiconline.co.uk/wp-content/uploads/graphics_png/triplet_quavers_1.png"
                         ],
                         "Triplet quavers",
-                        "3 triplet quavers =2 quavers = 1 beat"
+                        "3 triplet quavers = 2 quavers = 1 beat"
                     ],
                     [
                         [
@@ -5303,7 +5303,7 @@
         "levels": "ah",
         "name": "Chord II and 1st inversion (major key only)",
         "desc": [
-            "In a major key, chord IItends to be a minor chord."
+            "In a major key, chord II tends to be a minor chord."
         ],
         "id": "ii-and-1st-inversion"
     },
@@ -5440,7 +5440,7 @@
         "levels": "ah",
         "name": "Galliard",
         "desc": [
-            "A Renaissance court dance with 3 beats in the bar. It oftenfollows a",
+            "A Renaissance court dance with 3 beats in the bar. It often follows a",
             [
                 "link",
                 "/c/pavan",
@@ -5542,7 +5542,7 @@
         "levels": "ah",
         "name": "Pavan",
         "desc": [
-            "A Renaissance court dance with 2 beats in the bar. It is often followed bya",
+            "A Renaissance court dance with 2 beats in the bar. It is often followed by a",
             [
                 "link",
                 "/c/galliard",

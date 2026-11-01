@@ -97,21 +97,21 @@ def parse_desc(ele) -> list:
 				continue
 
 			match i.name:
-				case 'a': resp.append(['link', parse_url(i['href']), i.text.replace('\xa0', '')])
+				case 'a': resp.append(['link', parse_url(i['href']), fixtext(i.text)])
 				# case 'source': resp.append(['audio', i['src'].split('?')[0]])
 				case 'img': resp.append(['image', i['src']])
 				case 'br':
 					if resp and isinstance(resp[-1], str):
 						resp[-1] += '\n'
 				case _: raise TypeError('Unknown tag:', i)
-		elif isinstance(i, NavigableString): resp.append(i.text.replace('\xa0', ''))
+		elif isinstance(i, NavigableString): resp.append(i.text)
 		else: raise TypeError('Unknown element:', i)
 	return resp
 
-def fixtext(s: str) -> str:
-	s = s.replace('\xa0', '')
+def fixtext(s: str, strip: bool=True) -> str:
+	s = s.replace('\xa0', ' ')
 	for d in [' ', '\n']: s = d.join(i for i in s.split(d) if i)
-	return s.strip()
+	return s.strip() if strip else s
 
 with open('map.json') as f:
 	cidmap = json.load(f)
@@ -167,7 +167,15 @@ def concept(cid: str) -> dict:
 				resp['desc'][-1] += ('\n' if new_loop else '')+i
 			else: resp['desc'].append(i)
 			new_loop = False
-	resp['desc'] = [fixtext(i) if isinstance(i, str) else i for i in resp['desc']]
+	resp['desc'] = [fixtext(i, False) if isinstance(i, str) else i for i in resp['desc']]
+	for n, i in enumerate(resp['desc']):
+		if isinstance(i, str):
+			resp['desc'][n] = i.lstrip()
+			break
+	for n in range(len(resp['desc'])-1, -1, -1):
+		if isinstance(resp['desc'][n], str):
+			resp['desc'][n] = resp['desc'][n].rstrip()
+			break
 
 	# resp['id'] = '-'.join(i for i in re.sub(r'[^0-9a-z\s-]', '',
 	# 	resp['name'].lower()
@@ -178,14 +186,6 @@ def concept(cid: str) -> dict:
 	resp['id'] = cidmap[cid]
 
 	return resp
-
-
-# strings, forte, note-lengths-national-3
-print(concept('note-lengths-national-3'))
-
-
-exit()
-
 
 def get_concepts(path: str) -> set[str]:
 	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]) for i in get(path).select('td a')}
