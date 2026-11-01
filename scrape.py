@@ -82,7 +82,7 @@ def parse_desc(ele) -> list:
 				if (img := c.select_one('img')):
 					temp.append(['image', img['src']])
 				else:
-					temp.append(c.text.replace('\xa0', ''))
+					temp.append(fixtext(c.text))
 			table.append(temp)
 		return [['table', table]]
 	if ele.name == 'audio':
@@ -108,52 +108,13 @@ def parse_desc(ele) -> list:
 		else: raise TypeError('Unknown element:', i)
 	return resp
 
-def flatten(s: str, *delim: str) -> str:
-	for d in delim: s = d.join(i for i in s.split(d) if i)
-	return s
+def fixtext(s: str) -> str:
+	s = s.replace('\xa0', '')
+	for d in [' ', '\n']: s = d.join(i for i in s.split(d) if i)
+	return s.strip()
 
-def concept(cid: str) -> dict:
-	soup = get(cid)
-	resp = {}
-
-	if soup.find(id='404'):
-		raise ValueError('Error 404 -', cid)
-
-	resp['name'] = soup.select_one('h1.entry-title.post-title').text
-	content = soup.select_one('div.entry-content')
-	children = [i for i in content.children if (i.name == 'p' and i.text.replace('\xa0', '')) or i.name in ['audio', 'table']]
-
-	rm = []
-	for n, i in enumerate(children):
-		if (header := i.select_one('strong span')) and header.text == 'Related Concepts':
-			if resp.get('rel') is None: resp['rel'] = []
-			resp['rel'].extend([j['href'].split(URL)[1] for j in i.select('a')])
-			rm.append(n)
-		if (link := i.select_one('span a')) and link.text.startswith('Back to ') and link.text.endswith(' Music'):
-			rm.append(n)
-	
-	parsed = [parse_desc(i) for n, i in enumerate(children) if n not in rm]
-	resp['desc'] = []
-	
-	for p in parsed:
-		new_loop = True
-		for i in p:
-			if isinstance(i, str) and resp['desc'] and isinstance(resp['desc'][-1], str):
-				resp['desc'][-1] += ('\n' if new_loop else '')+i
-			else: resp['desc'].append(i)
-			new_loop = False
-	resp['desc'] = [flatten(i, '\n', ' ', '\n') if isinstance(i, str) else i for i in resp['desc']]
-
-	resp['id'] = '-'.join(i for i in re.sub(r'[^0-9a-z\s-]', '',
-		resp['name'].lower()
-			.replace('/', ' ')
-			.replace('è', 'e')
-			.replace('(voice)', 'v')
-	).split(' ') if i)
-	return resp
-
-def get_concepts(path: str) -> set[str]:
-	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]) for i in get(path).select('td a')}
+with open('map.json') as f:
+	cidmap = json.load(f)
 
 fixlevel = {
 	'legato': ['n3'],
@@ -168,6 +129,67 @@ fixid = {
 	'gospel': 'gospel-2',
 	'diminished-triad': 'diminished-7th-2'
 }
+
+def concept(cid: str) -> dict:
+	soup = get(cid)
+	resp = {}
+
+	if soup.find(id='404'):
+		raise ValueError('Error 404 -', cid)
+
+	resp['name'] = soup.select_one('h1.entry-title.post-title').text
+	content = soup.select_one('div.entry-content')
+	children = [i for i in content.children if (i.name == 'p' and i.text.replace('\xa0', '')) or i.name in ['audio', 'table']]
+
+	resp['rel'], rm = [], []
+	relmode = False
+	for n, i in enumerate(children):
+		if (header := i.select_one('strong span')) and header.text.startswith('Related Concept'):
+			relmode = True
+			resp['rel'].extend([j['href'].split(URL)[1] for j in i.select('a')])
+			rm.append(n)
+			continue
+		if (link := i.select_one('span a')) and link.text.startswith('Back to ') and link.text.endswith(' Music'):
+			rm.append(n)
+		elif relmode and i.name == 'p':
+			resp['rel'].extend([j['href'].split(URL)[1] for j in i.select('a')])
+			rm.append(n)
+
+	resp['rel'] = [fixid.get(i, i) for i in resp['rel']]
+	if not resp['rel']: del resp['rel']
+	parsed = [parse_desc(i) for n, i in enumerate(children) if n not in rm]
+	resp['desc'] = []
+	
+	for p in parsed:
+		new_loop = True
+		for i in p:
+			if isinstance(i, str) and resp['desc'] and isinstance(resp['desc'][-1], str):
+				resp['desc'][-1] += ('\n' if new_loop else '')+i
+			else: resp['desc'].append(i)
+			new_loop = False
+	resp['desc'] = [fixtext(i) if isinstance(i, str) else i for i in resp['desc']]
+
+	# resp['id'] = '-'.join(i for i in re.sub(r'[^0-9a-z\s-]', '',
+	# 	resp['name'].lower()
+	# 		.replace('/', ' ')
+	# 		.replace('è', 'e')
+	# 		.replace('(voice)', 'v')
+	# ).split(' ') if i)
+	resp['id'] = cidmap[cid]
+
+	return resp
+
+
+# strings, forte, note-lengths-national-3
+print(concept('note-lengths-national-3'))
+
+
+exit()
+
+
+def get_concepts(path: str) -> set[str]:
+	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]) for i in get(path).select('td a')}
+
 def get_all_concepts() -> dict[str, list[str]]:
 	resp = {'n3': [], 'n4': [], 'n5': [], 'h': [], 'ah': []}
 	table = get('a-z-concepts-list-2').select_one('tbody')
