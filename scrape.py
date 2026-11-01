@@ -209,28 +209,41 @@ conceptnames = {
 	'ah': 'advanced-higher-concepts'
 }
 
-task('Loading concept lists')
-conceptlist = get_all_concepts()
-for c, path in conceptnames.items():
-	conceptnames[c] = sorted(get_concepts(path) | conceptlist[c])
+# task('Loading concept lists')
+# conceptlist = get_all_concepts()
+# for c, path in conceptnames.items():
+# 	conceptnames[c] = sorted(get_concepts(path) | conceptlist[c])
 
-concepts = {}
-for k, v in conceptnames.items():
-	for c in v:
-		if c not in concepts: concepts[c] = k
-		else: 
-			if not isinstance(concepts[c], list):
-				concepts[c] = [concepts[c]]
-			concepts[c].append(k)
+# concepts = {}
+# for k, v in conceptnames.items():
+# 	for c in v:
+# 		if c not in concepts: concepts[c] = k
+# 		else: 
+# 			if not isinstance(concepts[c], list):
+# 				concepts[c] = [concepts[c]]
+# 			concepts[c].append(k)
 
-lc = max(*[len(i) for i in concepts])
-cl = len(concepts.keys())
-task('Scraping')
-for n, (k, v) in enumerate(concepts.items()):
-	task(update=f'{k:>{lc}} [{n:>{len(str(cl))}}/{cl}]')
-	concepts[k] = {'levels': v, **concept(k)}
+# lc = max(*[len(i) for i in concepts])
+# cl = len(concepts.keys())
+# task('Scraping')
+# for n, (k, v) in enumerate(concepts.items()):
+# 	task(update=f'{k:>{lc}} [{n:>{len(str(cl))}}/{cl}]')
+# 	concepts[k] = {'levels': v, **concept(k)}
 
-	with open('data.json', 'w') as f:
-		json.dump(concepts, f, indent=4)
+# 	with open('data.json', 'w') as f:
+# 		json.dump(concepts, f, indent=4)
+
+def quiz(path: str):
+	resp = []
+	for q in get(path).find(id='Questions').contents:
+		temp = {}
+		temp['q'] = q.select_one('div.QuestionText').text
+		if (audio := q.select_one('div.QuestionText source')): temp['audio'] = audio['src']
+
+		resp.append(temp)
+	return resp
+
+
+quiz('wp-content/uploads/hotpots/i7_n3_how_is_the_sound_produced.htm')
 
 task()
