@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+:root {
+	--bg: #111;
+	--fg: #222;
+	--fg2: #333;
+
+	--text: #fff;
+	--text2: #ccc;
+
+	--u: 1.5vw;
+}
+*[hidden] {
+	display: none !important;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+
+	background: var(--bg);
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	padding: calc(1.1 * var(--u)) calc(1 * var(--u)) calc(1 * var(--u)) calc(1.5 * var(--u));
+	box-sizing: border-box;
+
+	background: var(--fg);
+
+	display: flex;
+	align-items: center;
+}
+#logo {
+	color: var(--text);
+	font-family: Arial;
+	font-size: calc(3 * var(--u));
+	margin: 0;
+}
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: calc(.4 * var(--u));
+	margin-left: auto;
+
+	div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		width: max-content;
+
+		background: var(--bg);
+		padding: calc(.4 * var(--u));
+		box-sizing: border-box;
+		border-radius: calc(1 * var(--u));
+		gap: calc(.4 * var(--u));
+
+		a {
+			background: none;
+			text-decoration: none;
+			color: var(--text2);
+			font-family: Arial;
+			font-size: calc(2 * var(--u));
+
+			box-sizing: border-box;
+			padding: calc(.5 * var(--u)) calc(.7 * var(--u));
+			border-radius: calc(.6 * var(--u));
+
+			&.active {
+				background: var(--fg);
+				color: var(--text);
+			}
+		}
+	}
+}
+
+@media screen and (min-aspect-ratio: 2/3) {
+	:root {
+		--u: 1vh;
+	}
+}
+	</style>
+</head>
+<body>
+	<nav>
+		<h1 id="logo">..cggikmqsuw</h1>
+		<div id="nav">
+			<div id="levels">
+				<a id="nav-n3">N3</a>
+				<a id="nav-n4">N4</a>
+				<a id="nav-n5">N5</a>
+				<a id="nav-h">H</a>
+				<a id="nav-ah">AH</a>
+			</div>
+			<div id="pages">
+				<a id="nav-c">Concepts</a>
+				<a id="nav-q">Quizzes</a>
+			</div>
+		</div>
+	</nav>
+	<footer>
+
+	</footer>
+	<script>
+		const navdata = [null, null];
+		// const path = window.location.pathname.slice(1).split('/');
+		const path = ['q', 'ah', 'test'];
+		if (['c', 'q'].includes(path[0])) navdata[0] = path[0];
+		if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) navdata[1] = path[1];
+
+		//
+
+		document.getElementById('nav-'+navdata[0]).classList.add('active');
+		document.getElementById('nav-'+navdata[1]).classList.add('active');
+
+		document.querySelectorAll('#levels a').forEach(e => {
+			e.href = `/${navdata[0]}/${e.id.slice(4)}`;
+		});
+		document.querySelectorAll('#pages a').forEach(e => {
+			e.href = `/${e.id.slice(4)}/${navdata[1]}`;
+		});
+	</script>
+</body>
+</html>
