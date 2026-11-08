@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+:root {
+	--bg: #111;
+	--fg: #222;
+	--fg2: #555;
+
+	--text: #fff;
+	--text-s: #fff5;
+	--link: #08f;
+	--link-s: #08f5;
+
+	--u: 1.5vw;
+	--top-height: calc(6 * var(--u));
+	--bottom-height: calc(3 * var(--u));
+	--pad: calc(3 * var(--u));
+}
+*[hidden] {
+	display: none !important;
+}
+
+.underlined {
+	color: var(--link);
+	font-family: Arial;
+	font-weight: 500;
+	position: relative;
+	transition: .2s;
+	z-index: 2;
+	text-decoration: none;
+}
+.underline {
+	--widen: 0%;
+	--fix: 0%;
+	width: calc(100% + var(--widen));
+	transform: translateX(calc(-100% + var(--fix)));
+	height: 1px;
+	background: var(--link);
+	position: absolute;
+	bottom: 0;
+	transition: .2s;
+	z-index: -1;
+}
+.underlined:hover {
+	color: #000;
+}
+.underlined:hover .underline {
+	height: 100%;
+}
+.underlined::selection {
+	background: var(--link-s);
+}
+
+body {
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+	background: var(--bg);
+	padding: 0 var(--pad);
+	padding-top: calc(var(--top-height) + var(--pad));
+	padding-bottom: calc(var(--bottom-height) + var(--pad));
+	height: max-content;
+	min-height: 100vh;
+	min-height: 100dvh;
+	box-sizing: border-box;
+
+	max-width: calc(90 * var(--u));
+
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	padding: calc(1.1 * var(--u)) calc(1 * var(--u)) calc(1 * var(--u)) calc(1.5 * var(--u));
+	height: var(--top-height);
+	box-sizing: border-box;
+
+	background: var(--fg);
+
+	display: flex;
+	align-items: center;
+}
+#logo {
+	color: var(--text);
+	font-family: Arial;
+	font-size: calc(3 * var(--u));
+	margin: 0;
+
+	&::selection {
+		background: var(--text-s);
+	}
+}
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: calc(.4 * var(--u));
+	margin-left: auto;
+
+	div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		width: max-content;
+
+		background: var(--bg);
+		padding: calc(.4 * var(--u));
+		box-sizing: border-box;
+		border-radius: calc(1 * var(--u));
+		gap: calc(.4 * var(--u));
+
+		a {
+			background: none;
+			text-decoration: none;
+			color: var(--text);
+			font-family: Arial;
+			font-size: calc(2 * var(--u));
+
+			box-sizing: border-box;
+			padding: calc(.5 * var(--u)) calc(.7 * var(--u));
+			border-radius: calc(.6 * var(--u));
+
+			&.active {
+				background: var(--fg);
+				color: var(--text);
+			}
+			&::selection {
+				background: var(--text-s);
+			}
+		}
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50vw;
+
+	width: 100vw;
+	height: var(--bottom-height);
+	background: var(--fg);
+	padding: 0 calc(.8 * var(--u));
+	box-sizing: border-box;
+
+	display: flex;
+	align-items: center;
+
+	p {
+		color: var(--text);
+		font-family: Arial;
+		font-size: calc(1.5 * var(--u));
+
+		&:last-child {
+			margin-left: auto;
+		}
+		&::selection {
+			background: var(--text-s);
+		}
+	}
+
+	.underlined {
+		color: var(--text);
+
+		&::selection {
+			background: var(--text-s);
+		}
+	}
+	.underline {
+		background: var(--text);
+	}
+}
+
+#header {
+	color: var(--text);
+	font-family: Arial;
+	font-size: calc(3 * var(--u));
+	font-weight: 700;
+
+	margin: 0;
+	margin-bottom: calc(1 * var(--u));
+
+	&::selection {
+		background: var(--text-s);
+	}
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 0;
+	--corner: calc(1 * var(--u));
+
+	th, td {
+		width: auto;
+		text-align: left;
+		color: var(--text);
+		font-family: Arial;
+		padding: calc(1 * var(--u)) 0;
+		font-size: calc(2 * var(--u));
+
+		&::selection {
+			background: var(--text-s);
+		}
+	}
+	th {
+		font-weight: 700;
+	}
+	td {		
+		font-weight: 500;
+	}
+}
+
+#concept {
+	p {
+		color: var(--text);
+		font-family: Arial;
+		font-size: calc(2 * var(--u));
+	}
+}
+
+.audio {
+	width: max-content;
+	background: var(--fg);
+	border-radius: calc(1 * var(--u));
+	height: calc(4 * var(--u));
+	display: flex;
+	align-items: center;
+
+	padding-left: calc(.8 * var(--u));
+	padding-right: calc(1 * var(--u));
+	gap: calc(.5 * var(--u));
+
+	audio {
+		display: none;
+	}
+
+	button {
+		position: relative;
+		aspect-ratio: 1/1;
+		height: 100%;
+		background: none;
+		border: none;
+
+		&:focus {
+			outline: none;
+		}
+	}
+	svg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+		height: 60%;
+		aspect-ratio: 1/1;
+		stroke: var(--text);
+	}
+	&[data-value="0"] button svg:last-child {
+		display: none;
+	}
+	&[data-value="1"] button svg:first-child {
+		display: none;
+	}
+
+	input {
+		appearance: none;
+		-webkit-appearance: none;
+		background: transparent;
+		cursor: pointer;
+		width: calc(20 * var(--u));
+		position: relative;
+		--fill: 0%;
+	}
+	input::-webkit-slider-runnable-track {
+		background: linear-gradient(to right, #08f var(--fill), var(--fg2) var(--fill)) !important;
+		border-radius: calc(1 * var(--u));
+		height: calc(1 * var(--u));
+	}
+	input::-moz-range-track {
+		background: linear-gradient(to right, #08f var(--fill), var(--fg2) var(--fill)) !important;
+		border-radius: calc(1 * var(--u));
+		height: calc(1 * var(--u));
+	}
+	input::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		margin-top: calc(-.27 * var(--u));
+		border: none;
+		border-radius: 50%;
+		background-color: #ccc;
+		width: calc(1.5 * var(--u));
+		height: calc(1.5 * var(--u));
+	}
+	input::-moz-range-thumb {
+		border: none;
+		border-radius: 50%;
+		background-color: #ccc;
+		width: calc(1.5 * var(--u));
+		height: calc(1.5 * var(--u));
+	}
+
+	span {
+		font-family: Arial;
+		color: var(--text);
+		white-space: nowrap;
+    	font-variant-numeric: tabular-nums;
+		padding-left: calc(.5 * var(--u));
+
+		&::selection {
+			background: var(--text-s);
+		}
+	}
+}
+
+@media screen and (min-aspect-ratio: 2/3) {
+	:root {
+		--u: 1vh;
+	}
+}
+	</style>
+</head>
+<body>
+	<svg hidden>
+		<symbol id="icon-pause" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M8 5V19M16 5V19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+		</symbol>
+		<symbol id="icon-play" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z" stroke-width="2" stroke-linejoin="round"></path> </g></svg>
+		</symbol>
+	</svg>
+
+	<nav>
+		<h1 id="logo">..cggikmqsuw</h1>
+		<div id="nav">
+			<div id="levels">
+				<a id="nav-n3">N3</a>
+				<a id="nav-n4">N4</a>
+				<a id="nav-n5">N5</a>
+				<a id="nav-h">H</a>
+				<a id="nav-ah">AH</a>
+			</div>
+			<div id="pages">
+				<a id="nav-c">Concepts</a>
+				<a id="nav-q">Quizzes</a>
+			</div>
+		</div>
+	</nav>
+
+	<h1 id="header">Example Heading</h1>
+
+	<div id="concept">
+		<p>Using the bow on a <span><a class="underlined" href="/string" onclick="handleLink(event)">string<span class="underline"></span></a></span> instrument.<br>This is an example of a <span><a class="underlined" href="/violin" onclick="handleLink(event)">violin<span class="underline"></span></a></span> playing arco.</p>
+		
+		<div class="audio" data-value="0">
+			<audio src="https://mymusiconline.co.uk/wp-content/uploads/mp3/violin1.mp3?_=1"></audio>
+			<button onchange="playPause(this)">
+				<svg><use href="#icon-play"/></svg>
+				<svg><use href="#icon-pause"/></svg>
+			</button>
+			<input type="range" value="0" min="0" max="100" onchange="audioSeek(this)">
+			<span>0:00/0:00</span>
+		</div>
+	</div>
+
+	<!-- <table>
+		<tr>
+			<th>Style</th>
+			<th>Melody/Harmony</th>
+			<th>Rhythm/Tempo</th>
+			<th>Texture/Structure/Form</th>
+			<th>Timbre</th>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+		<tr>
+			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
+			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
+		</tr>
+	</table> -->
+
+	<footer>
+		<p></p>
+		<p>Made by <span><a class="underlined" href="https://qwk.gg/" target="_blank">qwk<span class="underline"></span></a></span></p>
+	</footer>
+	<script> //! TODO
+		function playpause() {
+			if (audio.paused) {
+				audio.play();
+				document.getElementById('play-svg').style.display = 'none';
+				document.getElementById('pause-svg').style.display = 'block';
+			} else {
+				audio.pause();
+				document.getElementById('play-svg').style.display = 'block';
+				document.getElementById('pause-svg').style.display = 'none';
+			}
+		}
+
+		function fixTimestamp() {
+			let curm = Math.floor(audio.currentTime / 60);
+			let curs = Math.floor(audio.currentTime - (curm * 60));
+			let totm = Math.floor(audio.duration / 60);
+			let tots = Math.floor(audio.duration - (totm * 60));
+			document.getElementById('timestamp').innerText = `${curm < 10 ? '0' : ''}${curm}:${curs < 10 ? '0' : ''}${curs}/${totm < 10 ? '0' : ''}${totm}:${tots < 10 ? '0' : ''}${tots}`;
+		}
+
+		function seek(value, noAudio=false) {
+			slider.style.setProperty('--fill', `${value}%`);
+			slider.value = value;
+
+			if (!noAudio && audio) {
+				console.log(slider.value, audio.duration, audio.currentTime);
+				audio.currentTime = (slider.value / 100) * audio.duration;
+				fixTimestamp();
+				fixquestion();
+			}
+		}
+
+		function skip(value) {
+			if (audio) {
+				audio.currentTime += value;
+				seek((audio.currentTime / audio.duration) * 100, true);
+				fixTimestamp();
+				fixquestion();
+			}
+		}
+
+		setTimeout(() => seek(0), 500);
+		audio.addEventListener('loadedmetadata', () => seek(0));
+
+		audio.addEventListener('timeupdate', () => {
+			seek((audio.currentTime / audio.duration) * 100, true);
+			fixTimestamp();
+			fixquestion();
+
+			if (audio.paused) {
+				document.getElementById('play-svg').style.display = 'block';
+				document.getElementById('pause-svg').style.display = 'none';
+			} else {
+				document.getElementById('play-svg').style.display = 'none';
+				document.getElementById('pause-svg').style.display = 'block';
+			}
+		});
+	</script>
+	<script>
+		const navdata = [null, null];
+		// const path = window.location.pathname.slice(1).split('/');
+		const path = ['q', 'ah', 'test'];
+		if (['c', 'q'].includes(path[0])) navdata[0] = path[0];
+		if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) navdata[1] = path[1];
+
+		function makelink(url, text) {
+			return `<span><a class="underlined" href="${url}" onclick="handleLink(event)">${text}<span class="underline"></span></a></span>`
+		}
+
+		function render() {
+
+		}
+
+		function redir(url) {
+			history.pushState({}, '', url);
+			render();
+		}
+		function handleLink(e) {
+			e.preventDefault();
+			redir(e.target.href);
+		}
+		window.addEventListener('popstate', render);
+
+		document.getElementById('nav-'+navdata[0]).classList.add('active');
+		document.getElementById('nav-'+navdata[1]).classList.add('active');
+
+		document.querySelectorAll('#levels a').forEach(e => {
+			e.href = `/${navdata[0]}/${e.id.slice(4)}`;
+			e.onclick = handleLink;
+		});
+		document.querySelectorAll('#pages a').forEach(e => {
+			e.href = `/${e.id.slice(4)}/${navdata[1]}`;
+			e.onclick = handleLink;
+		});
+
+		render();
+	</script>
+</body>
+</html>
