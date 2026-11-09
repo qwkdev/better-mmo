@@ -90,6 +90,7 @@ nav {
 
 	display: flex;
 	align-items: center;
+	z-index: 10;
 }
 #logo {
 	color: var(--text);
@@ -109,17 +110,19 @@ nav {
 	margin-left: auto;
 
 	div {
+		--n: -10;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		
+		position: relative;
 		width: max-content;
 
 		background: var(--bg);
-		padding: calc(.4 * var(--u));
+		padding: calc(.4 * var(--u)) calc(.3 * var(--u));
 		box-sizing: border-box;
 		border-radius: calc(1 * var(--u));
-		gap: calc(.4 * var(--u));
+		gap: calc(.2 * var(--u));
+		overflow: hidden;
 
 		a {
 			background: none;
@@ -127,10 +130,14 @@ nav {
 			color: var(--text);
 			font-family: Arial;
 			font-size: calc(2 * var(--u));
+			width: var(--w);
+			height: calc(var(--top-height) - (2.9 * var(--u)));
+			line-height: calc(var(--top-height) - (3 * var(--u)));
+			text-align: center;
 
 			box-sizing: border-box;
-			padding: calc(.5 * var(--u)) calc(.7 * var(--u));
-			border-radius: calc(.6 * var(--u));
+			padding-top: calc(.1 * var(--u));
+			z-index: 11;
 
 			&.active {
 				background: var(--fg);
@@ -140,7 +147,29 @@ nav {
 				background: var(--text-s);
 			}
 		}
+		&::before {
+			content: '';
+			position: absolute;
+			top: calc(.4 * var(--u));
+			left: calc((var(--w) + (.2 * var(--u))) * var(--n) + (.3 * var(--u)));
+
+			width: var(--w);
+			height: calc(var(--top-height) - (2.8 * var(--u)));
+			border-radius: calc(.6 * var(--u));
+			background: var(--fg);
+			transition: .2s;
+		}
+		&[data-value="0"]::before {
+			display: none;
+		}
 	}
+}
+
+#levels {
+	--w: calc(4 * var(--u));
+}
+#pages {
+	--w: calc(10 * var(--u));
 }
 
 footer {
@@ -186,11 +215,11 @@ footer {
 #header {
 	color: var(--text);
 	font-family: Arial;
-	font-size: calc(3 * var(--u));
+	font-size: calc(3.5 * var(--u));
 	font-weight: 700;
 
 	margin: 0;
-	margin-bottom: calc(1 * var(--u));
+	margin-bottom: calc(2 * var(--u));
 
 	&::selection {
 		background: var(--text-s);
@@ -221,13 +250,49 @@ table {
 	td {		
 		font-weight: 500;
 	}
+
 }
 
 #concept {
-	p {
+	display: flex;
+	flex-direction: column;
+	gap: calc(2 * var(--u));
+	height: max-content;
+
+	h2, p {
 		color: var(--text);
 		font-family: Arial;
 		font-size: calc(2 * var(--u));
+		margin: 0;
+
+		&::selection {
+			background: var(--text-s);
+		}
+	}
+	h2 {
+		font-size: calc(2.5 * var(--u));
+	}
+	img {
+		width: min-content;
+		height: max-content;
+		max-width: 50vw;
+		max-height: 30vh;
+		object-fit: contain;
+		border-radius: calc(1 * var(--u));
+	}
+	table img {
+		width: 50%;
+	}
+
+	#related {
+		margin-top: calc(2 * var(--u));
+
+		display: flex;
+		flex-direction: column;
+		gap: calc(1 * var(--u));
+	}
+	#back {
+		margin-top: calc(2 * var(--u));
 	}
 }
 
@@ -315,6 +380,7 @@ table {
 	span {
 		font-family: Arial;
 		color: var(--text);
+		font-size: calc(1.75 * var(--u));
 		white-space: nowrap;
     	font-variant-numeric: tabular-nums;
 		padding-left: calc(.5 * var(--u));
@@ -345,164 +411,239 @@ table {
 	<nav>
 		<h1 id="logo">..cggikmqsuw</h1>
 		<div id="nav">
-			<div id="levels">
-				<a id="nav-n3">N3</a>
-				<a id="nav-n4">N4</a>
-				<a id="nav-n5">N5</a>
-				<a id="nav-h">H</a>
-				<a id="nav-ah">AH</a>
+			<div id="levels" data-value="0" style="--n: -10;">
+				<a data-v="n3">N3</a>
+				<a data-v="n4">N4</a>
+				<a data-v="n5">N5</a>
+				<a data-v="h">H</a>
+				<a data-v="ah">AH</a>
 			</div>
-			<div id="pages">
-				<a id="nav-c">Concepts</a>
-				<a id="nav-q">Quizzes</a>
+			<div id="pages" data-value="0" style="--n: -10;">
+				<a data-v="c">Concepts</a>
+				<a data-v="q">Quizzes</a>
 			</div>
 		</div>
 	</nav>
 
-	<h1 id="header">Example Heading</h1>
-
-	<div id="concept">
-		<p>Using the bow on a <span><a class="underlined" href="/string" onclick="handleLink(event)">string<span class="underline"></span></a></span> instrument.<br>This is an example of a <span><a class="underlined" href="/violin" onclick="handleLink(event)">violin<span class="underline"></span></a></span> playing arco.</p>
-		
-		<div class="audio" data-value="0">
-			<audio src="https://mymusiconline.co.uk/wp-content/uploads/mp3/violin1.mp3?_=1"></audio>
-			<button onchange="playPause(this)">
-				<svg><use href="#icon-play"/></svg>
-				<svg><use href="#icon-pause"/></svg>
-			</button>
-			<input type="range" value="0" min="0" max="100" onchange="audioSeek(this)">
-			<span>0:00/0:00</span>
-		</div>
+	<div id="content">
+		<h1 id="header">Loading...</h1>
 	</div>
-
-	<!-- <table>
-		<tr>
-			<th>Style</th>
-			<th>Melody/Harmony</th>
-			<th>Rhythm/Tempo</th>
-			<th>Texture/Structure/Form</th>
-			<th>Timbre</th>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-		<tr>
-			<td><span><a class="underlined" href="/aria" onclick="handleLink(event)">Aria<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/atonal" onclick="handleLink(event)">Atonal<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/68" onclick="handleLink(event)">6/8<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/ab" onclick="handleLink(event)">AB<span class="underline"></span></a></span> / <span><a class="underlined" href="/binary" onclick="handleLink(event)">Binary<span class="underline"></span></a></span></td>
-			<td><span><a class="underlined" href="/acappella" onclick="handleLink(event)">A cappella<span class="underline"></span></a></span></td>
-		</tr>
-	</table> -->
 
 	<footer>
 		<p></p>
 		<p>Made by <span><a class="underlined" href="https://qwk.gg/" target="_blank">qwk<span class="underline"></span></a></span></p>
 	</footer>
-	<script> //! TODO
-		function playpause() {
-			if (audio.paused) {
-				audio.play();
-				document.getElementById('play-svg').style.display = 'none';
-				document.getElementById('pause-svg').style.display = 'block';
-			} else {
-				audio.pause();
-				document.getElementById('play-svg').style.display = 'block';
-				document.getElementById('pause-svg').style.display = 'none';
-			}
-		}
+	<script>
+		let navdata = [null, null];
+		// let path = window.location.pathname.slice(1).split('/');
+		let path = ['c', 'triplets'];
 
-		function fixTimestamp() {
+		function playPause(ele) {
+			const audio = ele.parentElement.querySelector('audio');
+			ele.parentElement.dataset.value = audio.paused ? '1' : '0';
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+		function setTimestamp(audio) {
 			let curm = Math.floor(audio.currentTime / 60);
 			let curs = Math.floor(audio.currentTime - (curm * 60));
 			let totm = Math.floor(audio.duration / 60);
 			let tots = Math.floor(audio.duration - (totm * 60));
-			document.getElementById('timestamp').innerText = `${curm < 10 ? '0' : ''}${curm}:${curs < 10 ? '0' : ''}${curs}/${totm < 10 ? '0' : ''}${totm}:${tots < 10 ? '0' : ''}${tots}`;
+			audio.parentElement.querySelector('span').innerText = `${curm < 10 ? '0' : ''}${curm}:${curs < 10 ? '0' : ''}${curs}/${totm < 10 ? '0' : ''}${totm}:${tots < 10 ? '0' : ''}${tots}`;
+		}
+		function audioSeek(ele, value, noAudio=false) {
+			const audio = ele.parentElement.querySelector('audio');
+			ele.value = value;
+			ele.style.setProperty('--fill', `${value}%`);
+			if (!noAudio) audio.currentTime = (value / 100) * audio.duration;
+			setTimestamp(audio);
 		}
 
-		function seek(value, noAudio=false) {
-			slider.style.setProperty('--fill', `${value}%`);
-			slider.value = value;
+		function addAudio(url, parent) {
+			const ele = document.createElement('div');
+			ele.classList.add('audio');
+			ele.dataset.value = '0';
+			ele.innerHTML = [
+				`<audio src=${url}></audio>`,
+				'<button onclick="playPause(this)">',
+					'<svg><use href="#icon-play"/></svg>',
+					'<svg><use href="#icon-pause"/></svg>',
+				'</button>',
+				'<input type="range" value="0" min="0" max="100" onchange="audioSeek(this, this.value)">',
+				'<span>0:00/0:00</span>'
+			].join('');
 
-			if (!noAudio && audio) {
-				console.log(slider.value, audio.duration, audio.currentTime);
-				audio.currentTime = (slider.value / 100) * audio.duration;
-				fixTimestamp();
-				fixquestion();
-			}
+			parent.appendChild(ele);
+			const slider = ele.querySelector('input');
+			const audio = ele.querySelector('audio');
+
+			setTimeout(() => audioSeek(slider, 0), 500);
+			audio.addEventListener('loadedmetadata', () => audioSeek(slider, 0));
+			audio.addEventListener('timeupdate', () => {
+				audioSeek(slider, (audio.currentTime / audio.duration) * 100, true);
+				setTimestamp(audio);
+				ele.dataset.value = audio.paused ? '0' : '1';
+			});
+		}
+		function addText(text, parent) {
+			const lines = text.split('\n');
+			lines.forEach((line, n) => {
+				parent.appendChild(document.createTextNode(line));
+				if (n < lines.length - 1) parent.appendChild(document.createElement('br'));
+			});
+		}
+		function makeLink(url, text) {
+			const a = document.createElement('span');
+			a.innerHTML = `<a class="underlined" href="${url}" onclick="handleLink(event)">${text}<span class="underline"></span></a>`;
+			return a;
 		}
 
-		function skip(value) {
-			if (audio) {
-				audio.currentTime += value;
-				seek((audio.currentTime / audio.duration) * 100, true);
-				fixTimestamp();
-				fixquestion();
-			}
-		}
-
-		setTimeout(() => seek(0), 500);
-		audio.addEventListener('loadedmetadata', () => seek(0));
-
-		audio.addEventListener('timeupdate', () => {
-			seek((audio.currentTime / audio.duration) * 100, true);
-			fixTimestamp();
-			fixquestion();
-
-			if (audio.paused) {
-				document.getElementById('play-svg').style.display = 'block';
-				document.getElementById('pause-svg').style.display = 'none';
-			} else {
-				document.getElementById('play-svg').style.display = 'none';
-				document.getElementById('pause-svg').style.display = 'block';
-			}
-		});
-	</script>
-	<script>
-		const navdata = [null, null];
-		// const path = window.location.pathname.slice(1).split('/');
-		const path = ['q', 'ah', 'test'];
-		if (['c', 'q'].includes(path[0])) navdata[0] = path[0];
-		if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) navdata[1] = path[1];
-
-		function makelink(url, text) {
-			return `<span><a class="underlined" href="${url}" onclick="handleLink(event)">${text}<span class="underline"></span></a></span>`
+		function renderPreset(name) {
+			const content = document.getElementById('content');
+			const header = document.getElementById('header');
+			header.textContent = 'Preset: '+name;
 		}
 
 		function render() {
+			navdata = [null, null];
+			path = window.location.pathname.slice(1) ? window.location.pathname.slice(1).split('/') : ['c', 'n5'];
+			if (['c', 'q'].includes(path[0])) navdata[0] = path[0];
+			if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) navdata[1] = path[1];
+			else if (navdata[0] === 'c' && !navdata[1] && DATA[path[1]]) navdata[1] = DATA[path[1]].level;
 
+			const levelSel = document.getElementById('levels');
+			const levelTab = ['n3', 'n4', 'n5', 'h', 'ah'].indexOf(navdata[1]);
+			levelSel.dataset.value = levelTab >= 0 ? "1" : "0";
+			levelSel.style.setProperty('--n', levelTab >= 0 ? levelTab : -10);
+
+			const pageSel = document.getElementById('pages');
+			const pageTab = ['c', 'q'].indexOf(navdata[0]);
+			pageSel.dataset.value = pageTab >= 0 ? "1" : "0";
+			pageSel.style.setProperty('--n', pageTab >= 0 ? pageTab : -10);
+			
+			levelSel.querySelectorAll('a').forEach(e => {
+				e.href = `/${navdata[0] || 'c'}/${e.dataset.v}`;
+				e.onclick = handleLink;
+			});
+			pageSel.querySelectorAll('a').forEach(e => {
+				e.href = `/${e.dataset.v}/${navdata[1] || 'n5'}`;
+				e.onclick = handleLink;
+			});
+
+			const content = document.getElementById('content');
+			content.innerHTML = '';
+			const header = document.createElement('h1');
+			header.id = 'header';
+			content.appendChild(header);
+
+			let built = false;
+			if (navdata[0] === 'c') {
+				if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) {
+					
+
+					buildTable(clist, content);
+				} else {
+					const cdata = DATA[path[1]];
+					if (cdata) {
+						console.log(cdata);
+						header.textContent = cdata.name;
+
+						const concept = document.createElement('div');
+						concept.id = 'concept';
+						buildConcept(cdata, concept);
+						content.appendChild(concept);
+						built = true;
+					}
+				}
+			}
+
+			if (!built) renderPreset('404');
+		}
+
+		function buildConcept(data, parent) {
+			let current;
+			for (const e of data.desc) {
+				if (typeof e === 'string') {
+					if (!current) current = document.createElement('p');
+					addText(e, current);
+					continue;
+				}
+				if (e[0] === 'link') {
+					if (!current) current = document.createElement('p');
+					current.appendChild(makeLink(e[1], e[2]));
+					continue
+				}
+				if (!['audio', 'table', 'image'].includes(e[0])) continue;
+				
+				if (current) parent.appendChild(current);
+				current = undefined;
+
+				switch (e[0]) {
+					case 'audio':
+						addAudio(e[1], parent);
+						break;
+					case 'table':
+						buildTable(e[1], parent);
+						break;
+					case 'image':
+						const img = document.createElement('img');
+						img.src = e[1];
+						parent.appendChild(img);
+						break;
+				}
+			}
+			if (current) parent.appendChild(current);
+
+			if (data.rel) {
+				const relWrapper = document.createElement('div');
+				relWrapper.id = 'related';
+
+				const relHeader = document.createElement('h2');
+				relHeader.textContent = 'Related Concepts:'
+				relWrapper.appendChild(relHeader);
+
+				const relList = document.createElement('p');
+				data.rel.forEach((c, n) => {
+					relList.appendChild(makeLink('/c/'+c, DATA[c]?.name));
+					if (n < data.rel.length - 1) relList.appendChild(document.createTextNode(', '));
+				});
+				relWrapper.appendChild(relList);
+				parent.appendChild(relWrapper);
+			}
+
+			const back = document.createElement('p');
+			back.id = 'back';
+			back.appendChild(makeLink('/c/'+data.level, `Back to ${data.level.toUpperCase()} Music`));
+			parent.appendChild(back);
+		}
+
+		function buildTable(data, parent) {
+			const table = document.createElement('table');
+			data.forEach((r, n) => {
+				const row = document.createElement('tr');
+				r.forEach(e => {
+					const ele = document.createElement(n === 0 ? 'th' : 'td');
+
+					if (typeof e === 'string') addText(e, ele);
+					else switch (e[0]) {
+						case 'link':
+							ele.appendChild(makeLink(e[1], e[2]));
+							break;
+						case 'audio':
+							addAudio(e[1], ele);
+							break;
+						case 'image':
+							const img = document.createElement('img');
+							img.src = e[1];
+							ele.appendChild(img);
+							break;
+					}
+
+					row.appendChild(ele);
+				});
+				table.appendChild(row);
+			});
+			parent.appendChild(table);
 		}
 
 		function redir(url) {
@@ -515,19 +656,12 @@ table {
 		}
 		window.addEventListener('popstate', render);
 
-		document.getElementById('nav-'+navdata[0]).classList.add('active');
-		document.getElementById('nav-'+navdata[1]).classList.add('active');
-
-		document.querySelectorAll('#levels a').forEach(e => {
-			e.href = `/${navdata[0]}/${e.id.slice(4)}`;
-			e.onclick = handleLink;
-		});
-		document.querySelectorAll('#pages a').forEach(e => {
-			e.href = `/${e.id.slice(4)}/${navdata[1]}`;
-			e.onclick = handleLink;
-		});
-
-		render();
+		let DATA = [];
+		fetch('/data.json')
+			.then(d => d.json())
+			.then(r => DATA = r)
+			.catch(console.error)
+			.then(render);
 	</script>
 </body>
 </html>

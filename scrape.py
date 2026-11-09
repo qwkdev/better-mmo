@@ -129,6 +129,9 @@ fixid = {
 	'gospel': 'gospel-2',
 	'diminished-triad': 'diminished-7th-2'
 }
+fixcol = {
+	# TODO
+}
 
 def concept(cid: str) -> dict:
 	soup = get(cid)
@@ -183,12 +186,16 @@ def concept(cid: str) -> dict:
 	# 		.replace('è', 'e')
 	# 		.replace('(voice)', 'v')
 	# ).split(' ') if i)
-	resp['id'] = cidmap[cid]
+	# resp['id'] = cidmap[cid]
 
 	return resp
 
-def get_concepts(path: str) -> set[str]:
-	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]) for i in get(path).select('td a')}
+def get_table_column(ele) -> int | None:
+	try: return ele.find_parent('tr').find_all(['td', 'th']).index(ele.find_parent(['td', 'th']))
+	except ValueError: return None
+
+def get_concepts(path: str) -> dict[str]:
+	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]): get_table_column(i) for i in get(path).select('td a')}
 
 def get_all_concepts() -> dict[str, list[str]]:
 	resp = {'n3': [], 'n4': [], 'n5': [], 'h': [], 'ah': []}
@@ -198,7 +205,7 @@ def get_all_concepts() -> dict[str, list[str]]:
 		c = fixid.get(c, c)
 		for k in (fixlevel[c] if c in fixlevel else [i.text for i in row.select('td:not(.has-text-align-left)') if i.text]):
 			resp[k.lower()].append(c)
-	resp = {k: set(v) for k, v in resp.items()}
+	resp = {k: {i: None for i in v} for k, v in resp.items()}
 	return resp
 
 conceptnames = {
@@ -212,26 +219,27 @@ conceptnames = {
 # task('Loading concept lists')
 # conceptlist = get_all_concepts()
 # for c, path in conceptnames.items():
-# 	conceptnames[c] = sorted(get_concepts(path) | conceptlist[c])
+# 	conceptnames[c] = {**conceptlist[c], **get_concepts(path)}
 
+# levels = ['n3', 'n4', 'n5', 'h', 'ah']
 # concepts = {}
-# for k, v in conceptnames.items():
-# 	for c in v:
-# 		if c not in concepts: concepts[c] = k
-# 		else: 
-# 			if not isinstance(concepts[c], list):
-# 				concepts[c] = [concepts[c]]
-# 			concepts[c].append(k)
+# for k in sorted(conceptnames.keys()):
+# 	for c, n in conceptnames[k].items():
+# 		if c not in concepts or levels.index(k) < levels.index(concepts[c][0]):
+# 			concepts[c] = [k, n]
 
 # lc = max(*[len(i) for i in concepts])
 # cl = len(concepts.keys())
+# nconcepts = {}
 # task('Scraping')
 # for n, (k, v) in enumerate(concepts.items()):
 # 	task(update=f'{k:>{lc}} [{n:>{len(str(cl))}}/{cl}]')
-# 	concepts[k] = {'levels': v, **concept(k)}
+# 	nconcepts[cidmap[k]] = {'level': v[0], **concept(k), 'id': k, 'col': v[1]}
 
 # 	with open('data.json', 'w') as f:
-# 		json.dump(concepts, f, indent=4)
+# 		json.dump(nconcepts, f, indent=4)
+
+# TODO: Check no null columns
 
 def quiz(path: str):
 	resp = []
