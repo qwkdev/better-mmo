@@ -1,11 +1,12 @@
 import json
 import os
-import re
+import sys
 import time
 
 import requests as rq
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+# TODO: alberti-bass
 URL = 'https://mymusiconline.co.uk/'
 
 def get(path: str):
@@ -69,9 +70,11 @@ def task(name: str | None=None, update: str | None=None) -> None:
 	cur_task, ctst = name, time.perf_counter()
 	print(ansiml(f"<dark>[{time.strftime('%H:%M:%S')}] {name}...</dark>"), end='', flush=True)
 
-def parse_url(url: str) -> str:
-	# Assuming url is a concept
-	return '/c/' + url.split(URL)[1]
+def parse_url(url: str) -> str | None:
+	if url.endswith('.mp3'): return None
+	concept = fixid.get(url.split(URL)[1], url.split(URL)[1])
+	if concept == 'advanced-higher': return None
+	return '/c/' + cidmap[concept]
 
 def parse_desc(ele) -> list:
 	if ele.name == 'table':
@@ -97,7 +100,9 @@ def parse_desc(ele) -> list:
 				continue
 
 			match i.name:
-				case 'a': resp.append(['link', parse_url(i['href']), fixtext(i.text)])
+				case 'a':
+					if (parsedurl := parse_url(i['href'])):
+						resp.append(['link', parsedurl, fixtext(i.text)])
 				# case 'source': resp.append(['audio', i['src'].split('?')[0]])
 				case 'img': resp.append(['image', i['src']])
 				case 'br':
@@ -127,10 +132,32 @@ fixlevel = {
 fixid = {
 	'penatonic': 'pentatonic',
 	'gospel': 'gospel-2',
-	'diminished-triad': 'diminished-7th-2'
+	'diminished-triad': 'diminished-7th-2',
+	'guitar': 'acoustic-guitar',
+	'scottishdanceband': 'scottish-dance-band',
+	'piano-2': 'piano-instrument',
+	'ab-binary': 'ab',
+	'abaca-rondo': 'abaca'
 }
 fixcol = {
-	# TODO
+	'dal-segno': 3,
+	'fine': 3,
+	'da-capo': 3,
+	'crescendo-2': 4,
+	'diminuendo': 4,
+	'note-lengths-national-3': 2,
+	'note-lengths-national-4': 2,
+	'note-lengths-national-5': 2,
+	'fortissimo': 4,
+	'forte': 4,
+	'mezzo-forte': 4,
+	'mezzo-piano': 4,
+	'piano': 4,
+	'pianissimo': 4,
+	'sforzando': 4,
+	'tuned-percussion': 4,
+	'untuned-percussion': 4,
+	'accidental': 1
 }
 
 def concept(cid: str) -> dict:
@@ -190,12 +217,14 @@ def concept(cid: str) -> dict:
 
 	return resp
 
-def get_table_column(ele) -> int | None:
+def get_table_column(concept, ele) -> int | None:
+	if concept in fixcol: return fixcol[concept] # TODO: FIX
 	try: return ele.find_parent('tr').find_all(['td', 'th']).index(ele.find_parent(['td', 'th']))
 	except ValueError: return None
 
 def get_concepts(path: str) -> dict[str]:
-	return {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]): get_table_column(i) for i in get(path).select('td a')}
+	c = {fixid.get(i['href'].split(URL)[1], i['href'].split(URL)[1]): i for i in get(path).select('td a')}
+	return {k: get_table_column(k, v) for k, v in c.items()}
 
 def get_all_concepts() -> dict[str, list[str]]:
 	resp = {'n3': [], 'n4': [], 'n5': [], 'h': [], 'ah': []}
@@ -216,42 +245,48 @@ conceptnames = {
 	'ah': 'advanced-higher-concepts'
 }
 
-# task('Loading concept lists')
-# conceptlist = get_all_concepts()
-# for c, path in conceptnames.items():
-# 	conceptnames[c] = {**conceptlist[c], **get_concepts(path)}
+task('Loading concept lists')
+conceptlist = get_all_concepts()
+for c, path in conceptnames.items():
+	conceptnames[c] = {**conceptlist[c], **get_concepts(path)}
 
-# levels = ['n3', 'n4', 'n5', 'h', 'ah']
-# concepts = {}
-# for k in sorted(conceptnames.keys()):
-# 	for c, n in conceptnames[k].items():
-# 		if c not in concepts or levels.index(k) < levels.index(concepts[c][0]):
-# 			concepts[c] = [k, n]
+levels = ['n3', 'n4', 'n5', 'h', 'ah']
+concepts = {}
+for k in sorted(conceptnames.keys()):
+	for c, n in conceptnames[k].items():
+		if c not in concepts or levels.index(k) < levels.index(concepts[c][0]):
+			concepts[c] = [k, n]
 
-# lc = max(*[len(i) for i in concepts])
-# cl = len(concepts.keys())
-# nconcepts = {}
-# task('Scraping')
-# for n, (k, v) in enumerate(concepts.items()):
-# 	task(update=f'{k:>{lc}} [{n:>{len(str(cl))}}/{cl}]')
-# 	nconcepts[cidmap[k]] = {'level': v[0], **concept(k), 'id': k, 'col': v[1]}
+lc = max(*[len(i) for i in concepts])
+cl = len(concepts.keys())
+nconcepts = {}
+task('Scraping')
+for n, (k, v) in enumerate(concepts.items()):
+	task(update=f'{k:>{lc}} [{n:>{len(str(cl))}}/{cl}]')
+	nconcepts[cidmap[k]] = {'level': v[0], **concept(k), 'id': k, 'col': v[1]}
 
-# 	with open('data.json', 'w') as f:
-# 		json.dump(nconcepts, f, indent=4)
+	with open('data.json', 'w') as f:
+		json.dump(nconcepts, f, indent=4)
 
-# TODO: Check no null columns
+found = False
+for k, v in nconcepts.items():
+	if (v['col'] is None):
+		if not found: print('Error: Missing Columns:')
+		found = True
+		print(k)
+if found: sys.exit()
 
-def quiz(path: str):
-	resp = []
-	for q in get(path).find(id='Questions').contents:
-		temp = {}
-		temp['q'] = q.select_one('div.QuestionText').text
-		if (audio := q.select_one('div.QuestionText source')): temp['audio'] = audio['src']
+# def quiz(path: str):
+# 	resp = []
+# 	for q in get(path).find(id='Questions').contents:
+# 		temp = {}
+# 		temp['q'] = q.select_one('div.QuestionText').text
+# 		if (audio := q.select_one('div.QuestionText source')): temp['audio'] = audio['src']
 
-		resp.append(temp)
-	return resp
+# 		resp.append(temp)
+# 	return resp
 
 
-quiz('wp-content/uploads/hotpots/i7_n3_how_is_the_sound_produced.htm')
+# quiz('wp-content/uploads/hotpots/i7_n3_how_is_the_sound_produced.htm')
 
 task()

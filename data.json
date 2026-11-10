@@ -193,12 +193,7 @@
         "level": "ah",
         "name": "Dal segno",
         "desc": [
-            "Dal segno means repeat from the sign ?. It is often abbreviated to D.S.",
-            [
-                "link",
-                "/c/advanced-higher",
-                "Back to Advanced Higher.Music."
-            ]
+            "Dal segno means repeat from the sign ?. It is often abbreviated to D.S."
         ],
         "id": "dal-segno",
         "col": null
@@ -227,11 +222,6 @@
                 "link",
                 "/c/dal-segno",
                 "D.S."
-            ],
-            [
-                "link",
-                "/c/advanced-higher",
-                "Back to Advanced Higher"
             ],
             "."
         ],
@@ -428,7 +418,7 @@
             "A 20th-century method of musical composition invented by Schoenberg in which the 12 notes of the chromatic scale are organised into a series or",
             [
                 "link",
-                "/c/tone-rownote-row",
+                "/c/note-row",
                 "tone row/note row"
             ],
             "."
@@ -895,7 +885,7 @@
             ",",
             [
                 "link",
-                "/c/guitar",
+                "/c/acoustic-guitar",
                 "guitar"
             ],
             "and",
@@ -1226,7 +1216,7 @@
             "Unaccompanied melody set to the Latin words of the Roman Catholic liturgy.",
             [
                 "link",
-                "/c/mode-modal",
+                "/c/mode",
                 "Modal"
             ],
             "with no regular metre.",
@@ -2528,7 +2518,7 @@
             "Traditional music of Scotland.\nThis excerpt is played by a",
             [
                 "link",
-                "/c/scottishdanceband",
+                "/c/scottish-dance-band",
                 "Scottish dance band"
             ],
             ".",
@@ -2559,7 +2549,7 @@
             ",",
             [
                 "link",
-                "/c/piano-2",
+                "/c/piano",
                 "piano"
             ],
             "and",
@@ -2871,8 +2861,8 @@
         "level": "n4",
         "name": "ABA",
         "rel": [
-            "ab-binary",
-            "abaca-rondo"
+            "ab",
+            "abaca"
         ],
         "desc": [
             "A three part form: an A section followed by a B section, which is a different melody, than a return to the A section.\nThis is the same as",
@@ -4110,8 +4100,8 @@
         "level": "n4",
         "name": "Ternary",
         "rel": [
-            "ab-binary",
-            "abaca-rondo"
+            "ab",
+            "abaca"
         ],
         "desc": [
             "A three part form: an A section followed by a B section, which is a different melody, than a return to the A section.\nThis is the same as",
@@ -4368,7 +4358,7 @@
         "name": "AB",
         "rel": [
             "aba-ternary",
-            "abaca-rondo"
+            "abaca"
         ],
         "desc": [
             "A form in which the music is made up of two different sections labelled A and B. \nThis is the same as",
@@ -4390,7 +4380,7 @@
         "level": "n5",
         "name": "ABACA",
         "rel": [
-            "ab-binary",
+            "ab",
             "aba-ternary"
         ],
         "desc": [
@@ -4452,17 +4442,7 @@
         "level": "n5",
         "name": "Alberti bass",
         "desc": [
-            "Broken chord accompaniment in the bass, often used in keyboard music.",
-            [
-                "link",
-                "/c/wp-content/uploads/mp3/albertibass-3b.mp3",
-                "https://mymusiconline.co.uk/wp-content/uploads/mp3/albertibass-3b.mp3"
-            ],
-            [
-                "link",
-                "/c/wp-content/uploads/mp3/albertibass-3b.mp3",
-                "albertibass-3b.mp3"
-            ]
+            "Broken chord accompaniment in the bass, often used in keyboard music."
         ],
         "id": "alberti-bass",
         "col": 3
@@ -4563,13 +4543,13 @@
         "name": "Binary",
         "rel": [
             "aba-ternary",
-            "abaca-rondo"
+            "abaca"
         ],
         "desc": [
             "A form in which the music is made up of two different sections labelled A and B. \nThis is the same as",
             [
                 "link",
-                "/c/ab-binary",
+                "/c/ab",
                 "AB"
             ],
             "form.",
@@ -5668,14 +5648,14 @@
         "level": "n5",
         "name": "Rondo",
         "rel": [
-            "ab-binary",
+            "ab",
             "aba-ternary"
         ],
         "desc": [
             "A form where the first section (A) keeps returning in between different sections.\nThis is the same as",
             [
                 "link",
-                "/c/abaca-rondo",
+                "/c/abaca",
                 "ABACA"
             ],
             "form."
@@ -5978,25 +5958,25 @@
             "",
             [
                 "link",
-                "/c/68-2",
+                "/c/6-8",
                 "6"
             ],
             "",
             [
                 "link",
-                "/c/68-2",
+                "/c/6-8",
                 "8"
             ],
             " ",
             [
                 "link",
-                "/c/98-2",
+                "/c/9-8",
                 "9"
             ],
             "",
             [
                 "link",
-                "/c/98-2",
+                "/c/9-8",
                 "8"
             ]
         ],
