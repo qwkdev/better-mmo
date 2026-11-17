@@ -288,6 +288,12 @@ if found: sys.exit()
 # 		resp.append(temp)
 # 	return resp
 
+# var I=new Array();
+# ...
+# (\n\n)function StartUp(){
+
+# I[n][2] -> '0': Multi Choice, '1': Text Input
+# I[n][3][*] = new Array(option, '', is_correct (1/0), ?, ?)
 
 # quiz('wp-content/uploads/hotpots/i7_n3_how_is_the_sound_produced.htm')
 
