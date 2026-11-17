@@ -38,11 +38,11 @@
 	--widen: 0%;
 	--fix: 0%;
 	width: calc(100% + var(--widen));
-	transform: translateX(calc(-100% + var(--fix)));
 	height: 1px;
 	background: var(--link);
 	position: absolute;
 	bottom: 0;
+	right: 0;
 	transition: .2s;
 	z-index: -1;
 }
@@ -229,7 +229,7 @@ footer {
 table {
 	width: 100%;
 	table-layout: fixed;
-	border-spacing: 0;
+	box-sizing: border-box;
 	--corner: calc(1 * var(--u));
 
 	th, td {
@@ -238,6 +238,8 @@ table {
 		color: var(--text);
 		font-family: Arial;
 		padding: calc(1 * var(--u)) 0;
+		padding-right: calc(.5 * var(--u));
+		box-sizing: border-box;
 		font-size: calc(2 * var(--u));
 
 		&::selection {
@@ -539,15 +541,22 @@ table {
 			let built = false;
 			if (navdata[0] === 'c') {
 				if (['n3', 'n4', 'n5', 'h', 'ah'].includes(path[1])) {
-					
-
-					buildTable(clist, content);
+					header.textContent = `${path[1].toUpperCase()} Concepts`;
+					let clist = Array.from({ length: 5 }, () => []);
+					for (const [concept, cdata] of Object.entries(DATA)) {
+						if (cdata.level === path[1]) {
+							clist[cdata.col].push([concept, cdata.name]);
+						}
+					}
+					clist = clist.map(level => level.sort((a, b) => a[1].localeCompare(b[1])));
+					const lclist = Math.max(...clist.map(a => a.length));
+					clist = Array.from({ length: lclist }).map((_, i) => clist.map(a => a[i] ? ['link', '/c/'+a[i][0], a[i][1]] : ''));
+					buildTable([['Style', 'Melody', 'Rhythm', 'Form', 'Timbre'], ...clist], content);
+					built = true;
 				} else {
 					const cdata = DATA[path[1]];
 					if (cdata) {
-						console.log(cdata);
 						header.textContent = cdata.name;
-
 						const concept = document.createElement('div');
 						concept.id = 'concept';
 						buildConcept(cdata, concept);
@@ -627,7 +636,10 @@ table {
 					if (typeof e === 'string') addText(e, ele);
 					else switch (e[0]) {
 						case 'link':
-							ele.appendChild(makeLink(e[1], e[2]));
+							const a = document.createElement('a');
+							a.href = e[1];
+							a.textContent = e[2];
+							ele.appendChild(a);
 							break;
 						case 'audio':
 							addAudio(e[1], ele);

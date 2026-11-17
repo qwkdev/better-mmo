@@ -196,7 +196,7 @@
             "Dal segno means repeat from the sign ?. It is often abbreviated to D.S."
         ],
         "id": "dal-segno",
-        "col": null
+        "col": 3
     },
     "edm": {
         "level": "ah",
@@ -226,7 +226,7 @@
             "."
         ],
         "id": "fine",
-        "col": null
+        "col": 3
     },
     "fugue": {
         "level": "ah",
@@ -731,7 +731,7 @@
             "Da capo is an instruction to repeat from the beginning of the sheet music. It is often abbreviated to D.C."
         ],
         "id": "da-capo",
-        "col": null
+        "col": 3
     },
     "da-capo-aria": {
         "level": "h",
@@ -1848,7 +1848,7 @@
             ]
         ],
         "id": "crescendo-2",
-        "col": null
+        "col": 4
     },
     "note-lengths-n3": {
         "level": "n3",
@@ -1911,7 +1911,7 @@
             ]
         ],
         "id": "note-lengths-national-3",
-        "col": null
+        "col": 2
     },
     "descending": {
         "level": "n3",
@@ -1954,7 +1954,7 @@
             ]
         ],
         "id": "diminuendo",
-        "col": null
+        "col": 4
     },
     "discord": {
         "level": "n3",
@@ -2091,7 +2091,7 @@
             ]
         ],
         "id": "forte",
-        "col": null
+        "col": 4
     },
     "harmony": {
         "level": "n3",
@@ -2358,7 +2358,7 @@
             ]
         ],
         "id": "piano",
-        "col": null
+        "col": 4
     },
     "piano": {
         "level": "n3",
@@ -3483,7 +3483,7 @@
             ]
         ],
         "id": "note-lengths-national-4",
-        "col": null
+        "col": 2
     },
     "guiro": {
         "level": "n4",
@@ -4238,7 +4238,7 @@
             "are examples of tuned percussion instruments."
         ],
         "id": "tuned-percussion",
-        "col": null
+        "col": 4
     },
     "untuned-percussion": {
         "level": "n4",
@@ -4265,7 +4265,7 @@
             "are examples of untuned percussion."
         ],
         "id": "untuned-percussion",
-        "col": null
+        "col": 4
     },
     "vamp": {
         "level": "n4",
@@ -4436,7 +4436,7 @@
             ]
         ],
         "id": "accidental",
-        "col": null
+        "col": 1
     },
     "alberti-bass": {
         "level": "n5",
@@ -5044,7 +5044,7 @@
             ]
         ],
         "id": "note-lengths-national-5",
-        "col": null
+        "col": 2
     },
     "episode": {
         "level": "n5",
@@ -5112,7 +5112,7 @@
             ]
         ],
         "id": "fortissimo",
-        "col": null
+        "col": 4
     },
     "french-horn": {
         "level": "n5",
@@ -5360,7 +5360,7 @@
             ]
         ],
         "id": "mezzo-forte",
-        "col": null
+        "col": 4
     },
     "mp": {
         "level": "n5",
@@ -5388,7 +5388,7 @@
             ]
         ],
         "id": "mezzo-piano",
-        "col": null
+        "col": 4
     },
     "mezzo-soprano": {
         "level": "n5",
@@ -5507,7 +5507,7 @@
             ]
         ],
         "id": "pianissimo",
-        "col": null
+        "col": 4
     },
     "pibroch": {
         "level": "n5",
@@ -5700,7 +5700,7 @@
             "A sudden loud accent. The abbreviation is sfz."
         ],
         "id": "sforzando",
-        "col": null
+        "col": 4
     },
     "sitar": {
         "level": "n5",

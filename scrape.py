@@ -6,6 +6,8 @@ import time
 import requests as rq
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+# TODO: Table col gap
+# TODO: Fix multi-line underline
 # TODO: alberti-bass
 URL = 'https://mymusiconline.co.uk/'
 
@@ -218,7 +220,7 @@ def concept(cid: str) -> dict:
 	return resp
 
 def get_table_column(concept, ele) -> int | None:
-	if concept in fixcol: return fixcol[concept] # TODO: FIX
+	if concept in fixcol: return fixcol[concept]
 	try: return ele.find_parent('tr').find_all(['td', 'th']).index(ele.find_parent(['td', 'th']))
 	except ValueError: return None
 
@@ -248,7 +250,7 @@ conceptnames = {
 task('Loading concept lists')
 conceptlist = get_all_concepts()
 for c, path in conceptnames.items():
-	conceptnames[c] = {**conceptlist[c], **get_concepts(path)}
+	conceptnames[c] = {k: fixcol.get(k, v) for k, v in {**conceptlist[c], **get_concepts(path)}.items()}
 
 levels = ['n3', 'n4', 'n5', 'h', 'ah']
 concepts = {}
